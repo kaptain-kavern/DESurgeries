@@ -20,7 +20,7 @@ ____________________________
 * Work: 3,000.
 * Requires 2 units of medicine).
 * Requires level 8 medicine.
-* Mandible surgery requires 17 Plasteel.
+* Mandible surgery requires 10 Plasteel.
 
 ##Hard surgeries:
 * Bad back, Frail, Rib cage and Spine.
