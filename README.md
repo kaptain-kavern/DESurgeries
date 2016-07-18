@@ -18,7 +18,7 @@ DESurgeries (originally by [DarknessEyes](https://ludeon.com/forums/index.php?to
 * Mandible, Ear, Nose, Bad back, Frail, Cataract, Hearing loss and Asthma.
 * Work: 4,000.
 * Requires 2 units of medicine (can use healroots).
-* Requires level 10 medicine.
+* Requires level 8 medicine.
 * Mandible surgery requires 17 Plasteel.
 
 ##Hard surgeries:
