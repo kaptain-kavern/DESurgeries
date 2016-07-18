@@ -16,14 +16,14 @@ DESurgeries (originally by [DarknessEyes](https://ludeon.com/forums/index.php?to
 
 ##Normal surgeries:
 * Mandible, Ear, Nose, Bad back, Frail, Cataract, Hearing loss and Asthma.
-* Work: 4,000.
+* Work: 3,000.
 * Requires 2 units of medicine (can use healroots).
 * Requires level 8 medicine.
 * Mandible surgery requires 17 Plasteel.
 
 ##Hard surgeries:
 * Bad back, Frail, Rib cage and Spine.
-* Work: 4,000.
+* Work: 4,500.
 * Requires 2 units of medicine (can use healroots).
 * Requires level 10 medicine.
 * On failure there is 5% chance to kill the patient.
