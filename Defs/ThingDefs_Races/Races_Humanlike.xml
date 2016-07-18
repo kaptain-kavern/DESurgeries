@@ -122,6 +122,42 @@
       <li>ExciseCarcinoma</li>
       <li>RemoveBodyPart</li>
       <li>Euthanize</li>
+      <!-- DESurgery -->
+      <!-- Cosmetic -->
+      <li>RepairCosmeticEar</li>
+      <li>RepairCosmeticNose</li>
+      <!-- Bone/limb -->
+      <li>RepairBoneSpine</li>
+      <li>RepairBonesRibCage</li>
+      <li>RepairBonesMandible</li>
+      <li>RepairFinger</li>
+      <li>RepairToe</li>
+      <!-- Chronic -->
+      <li>CureChronicBadBack</li>
+      <li>CureChronicFrail</li>
+      <li>CureChronicCataract</li>
+      <li>CureChronicHearingLoss</li>
+      <li>CureChronicDementia</li>
+      <li>CureMuscleParasites</li>
+      <li>CureGutWorms</li>
+      <li>CureChronicAlzheimers</li>
+      <li>CureChronicAsthma</li>
+      <li>CureChronicHeartArteryBlockage</li>
+      <!-- Injury -->
+      <li>CureInjuryBurn</li>
+      <li>CureInjuryCrush</li>
+      <li>CureInjuryCrack</li>
+      <li>CureInjuryCut</li>
+      <li>CureInjurySurgicalCut</li>
+      <li>CureInjuryScratch</li>
+      <li>CureInjuryBite</li>
+      <li>CureInjuryStab</li>
+      <li>CureInjuryGunshot</li>
+      <li>CureInjuryShredded</li>
+      <li>CureInjuryBruise</li>
+      <li>CureInjuryFrostbite</li>
+      <!-- Emergency sedate -->      
+      <li>InjectMedicine</li>
     </recipes>
   </ThingDef>
 

@@ -7,9 +7,6 @@
         <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
         <workSkill>Medicine</workSkill>
         <workSkillLearnFactor>16</workSkillLearnFactor>
-       <!-- <recipeUsers>
-            <li>Human</li>
-        </recipeUsers> -->
     </RecipeDef>
 
 <!-- Bones: Spine -->
@@ -1086,7 +1083,7 @@
         </skillRequirements>
         <removesHediff>BrainDamage</removesHediff>
     </RecipeDef> -->
-    
+
 <!-- Injury: MissingBodyPart -->
 
 
