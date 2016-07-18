@@ -34,6 +34,6 @@ ____________________________
 ##Very hard surgeries:
 * Dementia, Alzheimers and Heart artery blockage.
 * Work: 6,000.
-* Requires 5 units of medicine.
+* Requires 3 units of Glitterworld Medicine.
 * Requires level 15 medicine.
 * On failure there is 25% chance to kill the patient. 
