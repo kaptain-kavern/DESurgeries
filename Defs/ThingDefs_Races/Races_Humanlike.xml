@@ -104,6 +104,9 @@
       </hediffGiverSets>
     </race>
     <recipes>
+<!------------------------------------------------->
+<!---------------------- Vanilla ------------------>
+<!------------------------------------------------->
       <li>InstallPowerClaw</li>
       <li>InstallScytherBlade</li>
       <li>InstallBionicEye</li>
@@ -122,28 +125,13 @@
       <li>ExciseCarcinoma</li>
       <li>RemoveBodyPart</li>
       <li>Euthanize</li>
-      <!-- DESurgery -->
-      <!-- Cosmetic -->
-      <li>RepairCosmeticEar</li>
-      <li>RepairCosmeticNose</li>
-      <!-- Bone/limb -->
-      <li>RepairBoneSpine</li>
-      <li>RepairBonesRibCage</li>
-      <li>RepairBonesMandible</li>
-      <li>RepairFinger</li>
-      <li>RepairToe</li>
-      <!-- Chronic -->
-      <li>CureChronicBadBack</li>
-      <li>CureChronicFrail</li>
-      <li>CureChronicCataract</li>
-      <li>CureChronicHearingLoss</li>
-      <li>CureChronicDementia</li>
-      <li>CureMuscleParasites</li>
-      <li>CureGutWorms</li>
-      <li>CureChronicAlzheimers</li>
-      <li>CureChronicAsthma</li>
-      <li>CureChronicHeartArteryBlockage</li>
-      <!-- Injury -->
+<!------------------------------------------------->
+<!--------------------- DESurgery ----------------->
+<!------------------------------------------------->
+
+
+<!------------------ Easy Surgery ----------------->
+              <!-- Injury -->
       <li>CureInjuryBurn</li>
       <li>CureInjuryCrush</li>
       <li>CureInjuryCrack</li>
@@ -156,8 +144,44 @@
       <li>CureInjuryShredded</li>
       <li>CureInjuryBruise</li>
       <li>CureInjuryFrostbite</li>
-      <!-- Emergency sedate -->      
+              <!-- Emergency sedate -->
       <li>InjectMedicine</li>
+<!----------End of Easy Surgery -------------->
+
+   
+<!---------------Normal Surgery----------------->
+              <!-- Cosmetic -->
+      <li>RepairCosmeticEar</li>
+      <li>RepairCosmeticNose</li>
+              <!-- Bone/limb -->
+      <li>RepairBonesMandible</li>
+      <li>RepairFinger</li>
+      <li>RepairToe</li>
+              <!-- Chronic -->
+      <li>CureChronicCataract</li>
+      <li>CureChronicHearingLoss</li>
+<!------------End of Normal Surgery-------------->
+
+
+<!---------------Hard Surgery------------------>
+              <!-- Bone/limb -->
+      <li>RepairBoneSpine</li>
+      <li>RepairBonesRibCage</li>
+              <!-- Chronic -->
+      <li>CureChronicBadBack</li>
+      <li>CureChronicFrail</li>
+      <li>CureChronicAsthma</li>
+      <li>CureMuscleParasites</li>
+      <li>CureGutWorms</li>
+<!-----------End of Hard Surgery-------------->
+
+
+<!-------------Very Hard Surgery----------------->
+              <!-- Chronic -->
+      <li>CureChronicAlzheimers</li>
+      <li>CureChronicDementia</li>
+      <li>CureChronicHeartArteryBlockage</li>
+<!----------End of Very Hard Surgery------------->
     </recipes>
   </ThingDef>
 
