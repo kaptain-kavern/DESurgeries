@@ -27,7 +27,7 @@ ____________________________
 * Work: 4,500.
 * Requires 3 units of medicine.
 * Requires level 10 medicine.
-* On failure there is 10% chance to kill the patient.
+* **On failure there is 10% chance to kill the patient.**
 * Spine surgery requires 30 Plasteel.
 * Rib cage surgery requires 24 Plasteel.
 
