@@ -1,23 +1,74 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <RecipeDefs>
+  <!-- Define 4 different difficulties -->
+  <RecipeDef Name="SurgeryEasy" ParentName="SurgeryFlesh" Abstract="True">
+     <surgeonSurgerySuccessChanceExponent>1</surgeonSurgerySuccessChanceExponent>
+     <roomSurgerySuccessChanceFactorExponent>2</roomSurgerySuccessChanceFactorExponent>
+     <surgerySuccessChanceFactor>0.95</surgerySuccessChanceFactor>
+     <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+     <workAmount>2000</workAmount>
+     <skillRequirements>
+         <li>
+           <skill>Medicine</skill>
+           <minLevel>5</minLevel>
+         </li>
+     </skillRequirements>
+  </RecipeDef>
 
-    <RecipeDef Abstract="True" Name="SurgeryFlesh">
-        <effectWorking>Surgery</effectWorking>
-        <soundWorking>Recipe_Surgery</soundWorking>
-        <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
-        <workSkill>Medicine</workSkill>
-        <workSkillLearnFactor>16</workSkillLearnFactor>
-    </RecipeDef>
+  <RecipeDef Name="SurgeryNormal" ParentName="SurgeryFlesh" Abstract="True">
+     <surgeonSurgerySuccessChanceExponent>1.5</surgeonSurgerySuccessChanceExponent>
+     <roomSurgerySuccessChanceFactorExponent>3</roomSurgerySuccessChanceFactorExponent>
+     <surgerySuccessChanceFactor>0.8</surgerySuccessChanceFactor>
+     <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+     <workAmount>3000</workAmount>
+     <skillRequirements>
+         <li>
+             <skill>Medicine</skill>
+             <minLevel>8</minLevel>
+         </li>
+     </skillRequirements>
+  </RecipeDef>
+
+  <RecipeDef Name="SurgeryHard" ParentName="SurgeryFlesh" Abstract="True">
+     <surgeonSurgerySuccessChanceExponent>2</surgeonSurgerySuccessChanceExponent>
+     <roomSurgerySuccessChanceFactorExponent>4</roomSurgerySuccessChanceFactorExponent>
+     <surgerySuccessChanceFactor>0.6</surgerySuccessChanceFactor>
+     <deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+     <workAmount>4500</workAmount>
+     <skillRequirements>
+         <li>
+             <skill>Medicine</skill>
+             <minLevel>10</minLevel>
+         </li>
+     </skillRequirements>
+  </RecipeDef>
+
+  <RecipeDef Name="SurgeryVeryHard" ParentName="SurgeryFlesh" Abstract="True">
+     <surgeonSurgerySuccessChanceExponent>3</surgeonSurgerySuccessChanceExponent>
+     <roomSurgerySuccessChanceFactorExponent>4</roomSurgerySuccessChanceFactorExponent>
+     <surgerySuccessChanceFactor>0.5</surgerySuccessChanceFactor>
+     <deathOnFailedSurgeryChance>0.25</deathOnFailedSurgeryChance>
+     <workAmount>6000</workAmount>
+     <skillRequirements>
+         <li>
+             <skill>Medicine</skill>
+             <minLevel>15</minLevel>
+         </li>
+     </skillRequirements>
+  </RecipeDef>
+
+<!-- Easy Surgery -->
+<!-- Normal Surgery -->
+<!-- Hard Surgery -->
+<!-- Very Hard Surgery -->
 
 <!-- Bones: Spine -->
-    <RecipeDef ParentName="SurgeryFlesh">
+    <RecipeDef ParentName="SurgeryHard">
         <defName>RepairBonesSpine</defName>
         <label>repair spine</label>
         <description>Repair spine</description>
         <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
         <jobString>Repairing spine</jobString>
-        <workAmount>4000</workAmount>
-        <deathOnFailedSurgeryChance>0.05</deathOnFailedSurgeryChance>
         <ingredients>
             <li>
                 <filter>
@@ -1085,9 +1136,6 @@
     </RecipeDef> -->
 
 <!-- Injury: MissingBodyPart -->
-
-
-
 
   <RecipeDef ParentName="SurgeryFlesh">
 		<defName>InjectMedicine</defName>
