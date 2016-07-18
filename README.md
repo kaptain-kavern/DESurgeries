@@ -26,7 +26,7 @@ DESurgeries (originally by [DarknessEyes](https://ludeon.com/forums/index.php?to
 * Work: 4,500.
 * Requires 2 units of medicine (can use healroots).
 * Requires level 10 medicine.
-* On failure there is 5% chance to kill the patient.
+* On failure there is 10% chance to kill the patient.
 * Spine surgery requires 33 Plasteel.
 * Rib cage surgery requires 24 Plasteel.
 
