@@ -11,31 +11,33 @@ DESurgeries (originally by [DarknessEyes](https://ludeon.com/forums/index.php?to
 ____________________________
 
 ## Easy surgeries:
-*You can choose to quickly treat those injuries instead of waiting for them to slowly heal (and maybe cause infections), but it will cost you more medical resources*
+*You can choose to quickly treat those injuries instead of waiting for them to slowly heal (and maybe cause infections), but it will cost you more medical resources. You also now have the ability to sedate a colonist (for __3 units of medecine__) to put him in artificial sleep, that way he can recover faster after surgeries*
 * Burn, Crush, Crack, Cut, Surgical cut, Scratch, Bite, Stab, Gunshot, Shredded, Bruise and Frostbite.
 * Work: 2,000.
 * Requires 2 units of medicine (Healroots can be used).
-* Requires level 5 medicine.
+* _Requires level 5 medicine._
 
 ## Normal surgeries:
 * Mandible, Finger, Toe, Ear, Nose, Bad back, Frail, Cataract and Hearing loss.
 * Work: 3,000.
 * Requires 2 units of medicine (Healroots cannot be used).
-* Requires level 8 medicine.
+* _Requires level 8 medicine._
 * Mandible surgery requires 10 Plasteel.
 
 ## Hard surgeries:
+*You can try to heal Muscle Parasites and Gut Worms in one operation (instead of waiting for the 5 treatments in Vanilla) but it will cost you 5 units of medicine in one time. Also be aware of the risk of lethal failures (if the operation fail then there is a 10% chance of killing the patient)*
 * Asthma, Bad back, Frail, Rib cage, Muscle Parasite, Gut Worms and Spine.
 * Work: 4,500.
-* Requires 3 units of medicine.
-* Requires level 10 medicine.
+* Requires 3 units of medicine (Healroots cannot be used).
+* _Requires level 10 medicine._
 * __On failure there is 10% chance to kill the patient.__
-* Spine surgery requires 30 Plasteel.
-* Rib cage surgery requires 24 Plasteel.
+* Spine surgery and Bad Back treatment requires 30 Plasteel.
+* Rib Cage surgery and Frail treatment requires 24 Plasteel.
+* Muscle Parasites and Gut Worms treatment requires __5 units of medicine__
 
 ## Very hard surgeries:
 * Dementia, Alzheimers and Heart artery blockage.
 * Work: 6,000.
-* Requires 3 units of Glitterworld Medicine.
-* Requires level 15 medicine.
-* On failure there is 25% chance to kill the patient.
+* Requires 3 units of Glitterworld Medicine (Healroots and standard medecine cannot be used).
+* _Requires level 15 medicine._
+* __On failure there is 25% chance to kill the patient.__

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <RecipeDefs>
-  
+
   <!-- Define 4 different difficulties -->
 <RecipeDef Name="SurgeryEasy" ParentName="SurgeryFlesh" Abstract="True">
   <surgeonSurgerySuccessChanceExponent>1</surgeonSurgerySuccessChanceExponent>
@@ -683,7 +683,7 @@
           <li>Medicine</li>
         </categories>
       </filter>
-      <count>2</count>
+      <count>3/count>
     </li>
     <li>
       <filter>
@@ -768,7 +768,7 @@
             <li>Plasteel</li>
           </thingDefs>
         </filter>
-        <count>30</count>
+        <count>24</count>
       </li>
     </ingredients>
   <fixedIngredientFilter>
