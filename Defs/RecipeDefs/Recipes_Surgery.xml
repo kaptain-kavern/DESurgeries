@@ -364,7 +364,7 @@
 <RecipeDef ParentName="SurgeryEasy">
   <defName>InjectMedicine</defName>
   <label>Sedate</label>
-  <description>Anesthetize patient. You know to keep him ... calm...</description>
+  <description>Anesthetize patient for him to recover faster</description>
   <workerClass>Recipe_InstallImplant</workerClass>
   <jobString>Sedating.</jobString>
   <ingredients>
