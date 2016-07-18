@@ -104,9 +104,9 @@
       </hediffGiverSets>
     </race>
     <recipes>
-<!------------------------------------------------->
-<!---------------------- Vanilla ------------------>
-<!------------------------------------------------->
+<!-- ===================================================== -->
+<!-- ======================= Vanilla ===================== -->
+<!-- ===================================================== -->
       <li>InstallPowerClaw</li>
       <li>InstallScytherBlade</li>
       <li>InstallBionicEye</li>
@@ -125,12 +125,12 @@
       <li>ExciseCarcinoma</li>
       <li>RemoveBodyPart</li>
       <li>Euthanize</li>
-<!------------------------------------------------->
-<!--------------------- DESurgery ----------------->
-<!------------------------------------------------->
+<!-- ===================================================== -->
+<!-- ======================= DESurgery =================== -->
+<!-- ===================================================== -->
 
 
-<!------------------ Easy Surgery ----------------->
+<!-- ==================== Easy Surgery ==================== -->
               <!-- Injury -->
       <li>CureInjuryBurn</li>
       <li>CureInjuryCrush</li>
@@ -146,10 +146,10 @@
       <li>CureInjuryFrostbite</li>
               <!-- Emergency sedate -->
       <li>InjectMedicine</li>
-<!----------End of Easy Surgery -------------->
+<!-- =============== End of Easy Surgery ================ -->
 
-   
-<!---------------Normal Surgery----------------->
+
+<!-- =============== Normal Surgery ================ -->
               <!-- Cosmetic -->
       <li>RepairCosmeticEar</li>
       <li>RepairCosmeticNose</li>
@@ -160,10 +160,10 @@
               <!-- Chronic -->
       <li>CureChronicCataract</li>
       <li>CureChronicHearingLoss</li>
-<!------------End of Normal Surgery-------------->
+<!-- =============== End of Normal Surgery ================ -->
 
 
-<!---------------Hard Surgery------------------>
+<!-- =============== Hard Surgery ================ -->
               <!-- Bone/limb -->
       <li>RepairBoneSpine</li>
       <li>RepairBonesRibCage</li>
@@ -173,15 +173,15 @@
       <li>CureChronicAsthma</li>
       <li>CureMuscleParasites</li>
       <li>CureGutWorms</li>
-<!-----------End of Hard Surgery-------------->
+<!-- =============== End of Hard Surgery ================ -->
 
 
-<!-------------Very Hard Surgery----------------->
+<!-- =============== Very Hard Surgery ================ -->
               <!-- Chronic -->
       <li>CureChronicAlzheimers</li>
       <li>CureChronicDementia</li>
       <li>CureChronicHeartArteryBlockage</li>
-<!----------End of Very Hard Surgery------------->
+<!-- =============== End of Very Hard Surgery ================ -->
     </recipes>
   </ThingDef>
 
