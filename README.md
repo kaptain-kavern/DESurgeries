@@ -9,6 +9,7 @@ DESurgeries (originally by [DarknessEyes](https://ludeon.com/forums/index.php?to
 > * 5 bone/limb surgeries: Finger, Toe, Mandible, Rib cage and Spine.
 
 ____________________________
+As for now, this mod is __not compatible__ with [EPOE](https://ludeon.com/forums/index.php?topic=10571.msg104518#msg104518)
 
 ## Easy surgeries:
 *You can choose to quickly treat those injuries instead of waiting for them to slowly heal (and maybe cause infections), but it will cost you more medical resources. You also now have the ability to sedate a colonist (for __3 units of medecine__) to put him in artificial sleep, that way he can recover faster after surgeries*
