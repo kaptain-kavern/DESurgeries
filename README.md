@@ -33,8 +33,8 @@ As for now, this mod is __not compatible__ with [EPOE](https://ludeon.com/forums
 * Requires 3 units of medicine (Healroots cannot be used).
 * _Requires level 10 medicine._
 * __On failure there is 10% chance to kill the patient.__
-* Spine surgery and Bad Back treatment requires 30 Plasteel.
-* Rib Cage surgery and Frail treatment requires 24 Plasteel.
+* Spine surgery and Bad Back treatment also requires 30 Plasteel.
+* Pelvis, Rib Cage surgery and Frail treatment also requires 24 Plasteel.
 * Muscle Parasites and Gut Worms treatment requires __5 units of medicine__
 
 ## Very hard surgeries:
