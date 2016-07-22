@@ -10,7 +10,7 @@ DESurgeries (originally by [DarknessEyes](https://ludeon.com/forums/index.php?to
 > * 6 bone/limb surgeries: Finger, Toe, Mandible, Pelvis, Rib cage and Spine.
 
 ____________________________
-**<======================[DOWNLOAD](https://github.com/kaptain-kavern/DESurgeries/releases/latest)======================>**
+**<======================[[DOWNLOAD](https://github.com/kaptain-kavern/DESurgeries/releases/latest)]======================>**
 ____________________________
 As for now, this mod is __not compatible__ with [EPOE](https://ludeon.com/forums/index.php?topic=10571.msg104518#msg104518)
 
