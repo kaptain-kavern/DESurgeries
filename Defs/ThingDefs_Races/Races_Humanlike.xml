@@ -167,6 +167,7 @@
               <!-- Bone/limb -->
       <li>RepairBoneSpine</li>
       <li>RepairBonesRibCage</li>
+      <li>RepairBonesPelvis</li>
               <!-- Chronic -->
       <li>CureChronicBadBack</li>
       <li>CureChronicFrail</li>

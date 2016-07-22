@@ -2,11 +2,12 @@
 DESurgeries (originally by [DarknessEyes](https://ludeon.com/forums/index.php?topic=18976.0))  taken from [Aristocat's Medical Complication Mod Pack](https://ludeon.com/forums/index.php?topic=20708.0)
 
 > Adds new surgeries to Rimworld.
+> * Possibily to sedate patient
 > * 2 cosmetic surgeries: Ear and Nose.
 > * 8 chronic surgeries: Bad back, Frail, Cataract, Hearing loss, Dementia, Alzheimers, Asthma and Heart artery blockage.
 > * 12 injury surgeries: Burn, Crush, Crack, Cut, Surgical cut, Scratch, Bite, Stab, Gunshot, Shredded, Bruise, Frostbite.
 > * 2 Parasite surgeries : Muscle Parasite, Gut Worms
-> * 5 bone/limb surgeries: Finger, Toe, Mandible, Rib cage and Spine.
+> * 6 bone/limb surgeries: Finger, Toe, Mandible, Pelvis, Rib cage and Spine.
 
 ____________________________
 As for now, this mod is __not compatible__ with [EPOE](https://ludeon.com/forums/index.php?topic=10571.msg104518#msg104518)
@@ -19,7 +20,7 @@ As for now, this mod is __not compatible__ with [EPOE](https://ludeon.com/forums
 * _Requires level 5 medicine._
 
 ## Normal surgeries:
-* Mandible, Finger, Toe, Ear, Nose, Bad back, Frail, Cataract and Hearing loss.
+* Mandible, Finger, Toe, Ear, Nose, Cataract and Hearing loss.
 * Work: 3,000.
 * Requires 2 units of medicine (Healroots cannot be used).
 * _Requires level 8 medicine._
@@ -27,7 +28,7 @@ As for now, this mod is __not compatible__ with [EPOE](https://ludeon.com/forums
 
 ## Hard surgeries:
 *You can try to heal Muscle Parasites and Gut Worms in one operation (instead of waiting for the 5 treatments in Vanilla) but it will cost you 5 units of medicine in one time. Also be aware of the risk of lethal failures (if the operation fail then there is a 10% chance of killing the patient)*
-* Asthma, Bad back, Frail, Rib cage, Muscle Parasite, Gut Worms and Spine.
+* Asthma, Bad back, Frail, Rib cage, Spine, Pelvis, Muscle Parasites and Gut Worms.
 * Work: 4,500.
 * Requires 3 units of medicine (Healroots cannot be used).
 * _Requires level 10 medicine._

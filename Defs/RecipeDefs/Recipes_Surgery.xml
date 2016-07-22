@@ -431,62 +431,6 @@
   </appliedOnFixedBodyParts>
 </RecipeDef>
 
-    <!-- Chronic: Cataract -->
-<RecipeDef ParentName="SurgeryNormal">
-  <defName>CureChronicCataract</defName>
-  <label>cure cataract</label>
-  <description>Cure cataract.</description>
-  <workerClass>Recipe_RemoveHediff</workerClass>
-  <jobString>Curing cataract.</jobString>
-  <ingredients>
-    <li>
-      <filter>
-        <categories>
-          <li>Medicine</li>
-        </categories>
-      </filter>
-      <count>2</count>
-    </li>
-  </ingredients>
-  <fixedIngredientFilter>
-    <categories>
-      <li>Medicine</li>
-    </categories>
-    <exceptedThingDefs>
-      <li>HerbalMedicine</li>
-    </exceptedThingDefs>
-  </fixedIngredientFilter>
-  <removesHediff>Cataract</removesHediff>
-</RecipeDef>
-
-    <!-- Chronic: HearingLoss -->
-<RecipeDef ParentName="SurgeryNormal">
-  <defName>CureChronicHearingLoss</defName>
-  <label>cure hearing loss</label>
-  <description>Cure hearing loss.</description>
-  <workerClass>Recipe_RemoveHediff</workerClass>
-  <jobString>Curing hearing loss.</jobString>
-  <ingredients>
-    <li>
-      <filter>
-        <categories>
-          <li>Medicine</li>
-        </categories>
-      </filter>
-      <count>2</count>
-    </li>
-  </ingredients>
-  <fixedIngredientFilter>
-    <categories>
-      <li>Medicine</li>
-    </categories>
-    <exceptedThingDefs>
-      <li>HerbalMedicine</li>
-    </exceptedThingDefs>
-  </fixedIngredientFilter>
-  <removesHediff>HearingLoss</removesHediff>
-</RecipeDef>
-
     <!-- Bone/limb finger -->
 <RecipeDef ParentName="SurgeryNormal">
   <defName>RepairFinger</defName>
@@ -563,6 +507,62 @@
     <li>RightFootSecondToe</li>
     <li>RightFootBigToe</li>
   </appliedOnFixedBodyParts>
+</RecipeDef>
+
+    <!-- Chronic: Cataract -->
+<RecipeDef ParentName="SurgeryNormal">
+  <defName>CureChronicCataract</defName>
+  <label>cure cataract</label>
+  <description>Cure cataract.</description>
+  <workerClass>Recipe_RemoveHediff</workerClass>
+  <jobString>Curing cataract.</jobString>
+  <ingredients>
+    <li>
+      <filter>
+        <categories>
+          <li>Medicine</li>
+        </categories>
+      </filter>
+      <count>2</count>
+    </li>
+  </ingredients>
+  <fixedIngredientFilter>
+    <categories>
+      <li>Medicine</li>
+    </categories>
+    <exceptedThingDefs>
+      <li>HerbalMedicine</li>
+    </exceptedThingDefs>
+  </fixedIngredientFilter>
+  <removesHediff>Cataract</removesHediff>
+</RecipeDef>
+
+    <!-- Chronic: HearingLoss -->
+<RecipeDef ParentName="SurgeryNormal">
+  <defName>CureChronicHearingLoss</defName>
+  <label>cure hearing loss</label>
+  <description>Cure hearing loss.</description>
+  <workerClass>Recipe_RemoveHediff</workerClass>
+  <jobString>Curing hearing loss.</jobString>
+  <ingredients>
+    <li>
+      <filter>
+        <categories>
+          <li>Medicine</li>
+        </categories>
+      </filter>
+      <count>2</count>
+    </li>
+  </ingredients>
+  <fixedIngredientFilter>
+    <categories>
+      <li>Medicine</li>
+    </categories>
+    <exceptedThingDefs>
+      <li>HerbalMedicine</li>
+    </exceptedThingDefs>
+  </fixedIngredientFilter>
+  <removesHediff>HearingLoss</removesHediff>
 </RecipeDef>
 
     <!-- Cosmetic: Ear -->
@@ -707,6 +707,47 @@
   </fixedIngredientFilter>
   <appliedOnFixedBodyParts>
     <li>Rib</li>
+  </appliedOnFixedBodyParts>
+</RecipeDef>
+
+<!-- Bones: Pelvis -->
+<RecipeDef ParentName="SurgeryHard">
+  <defName>RepairBonesPelvis</defName>
+  <label>repair Pelvis</label>
+  <description>Repair Pelvis</description>
+  <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+  <jobString>Repairing Pelvis</jobString>
+  <ingredients>
+    <li>
+      <filter>
+        <categories>
+          <li>Medicine</li>
+        </categories>
+      </filter>
+      <count>3</count>
+    </li>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>Plasteel</li>
+        </thingDefs>
+      </filter>
+      <count>24</count>
+    </li>
+  </ingredients>
+  <fixedIngredientFilter>
+    <categories>
+      <li>Medicine</li>
+    </categories>
+    <exceptedThingDefs>
+      <li>HerbalMedicine</li>
+    </exceptedThingDefs>
+    <thingDefs>
+      <li>Plasteel</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+  <appliedOnFixedBodyParts>
+    <li>Pelvis</li>
   </appliedOnFixedBodyParts>
 </RecipeDef>
 
