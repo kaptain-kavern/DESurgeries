@@ -8,6 +8,9 @@
   <surgerySuccessChanceFactor>0.95</surgerySuccessChanceFactor>
   <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
   <workAmount>2000</workAmount>
+  <recipeUsers>
+    <li>Human</li>
+  </recipeUsers>
   <skillRequirements>
     <li>
       <skill>Medicine</skill>
@@ -22,6 +25,9 @@
   <surgerySuccessChanceFactor>0.8</surgerySuccessChanceFactor>
   <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
   <workAmount>3000</workAmount>
+  <recipeUsers>
+    <li>Human</li>
+  </recipeUsers>
   <skillRequirements>
     <li>
       <skill>Medicine</skill>
@@ -36,6 +42,9 @@
   <surgerySuccessChanceFactor>0.6</surgerySuccessChanceFactor>
   <deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
   <workAmount>4500</workAmount>
+  <recipeUsers>
+    <li>Human</li>
+  </recipeUsers>
   <skillRequirements>
     <li>
       <skill>Medicine</skill>
@@ -50,6 +59,9 @@
   <surgerySuccessChanceFactor>0.5</surgerySuccessChanceFactor>
   <deathOnFailedSurgeryChance>0.25</deathOnFailedSurgeryChance>
   <workAmount>6000</workAmount>
+  <recipeUsers>
+    <li>Human</li>
+  </recipeUsers>
   <skillRequirements>
     <li>
       <skill>Medicine</skill>
@@ -431,6 +443,48 @@
   </appliedOnFixedBodyParts>
 </RecipeDef>
 
+    <!-- Bone/limb: clavicle -->
+<RecipeDef ParentName="SurgeryNormal">
+  <defName>RepairBonesClavicle</defName>
+  <label>repair clavicle</label>
+  <description>Repair clavicle</description>
+  <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+  <jobString>Repairing clavicle</jobString>
+  <ingredients>
+    <li>
+      <filter>
+        <categories>
+          <li>Medicine</li>
+        </categories>
+      </filter>
+      <count>2</count>
+    </li>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>Plasteel</li>
+        </thingDefs>
+      </filter>
+      <count>10</count>
+    </li>
+  </ingredients>
+  <fixedIngredientFilter>
+    <categories>
+      <li>Medicine</li>
+    </categories>
+    <exceptedThingDefs>
+      <li>HerbalMedicine</li>
+    </exceptedThingDefs>
+    <thingDefs>
+      <li>Plasteel</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+  <appliedOnFixedBodyParts>
+    <li>LeftClavicle</li>
+    <li>RightClavicle</li>
+  </appliedOnFixedBodyParts>
+</RecipeDef>    
+
     <!-- Bone/limb finger -->
 <RecipeDef ParentName="SurgeryNormal">
   <defName>RepairFinger</defName>
@@ -507,35 +561,7 @@
     <li>RightFootSecondToe</li>
     <li>RightFootBigToe</li>
   </appliedOnFixedBodyParts>
-</RecipeDef>
-
-    <!-- Chronic: Cataract -->
-<RecipeDef ParentName="SurgeryNormal">
-  <defName>CureChronicCataract</defName>
-  <label>cure cataract</label>
-  <description>Cure cataract.</description>
-  <workerClass>Recipe_RemoveHediff</workerClass>
-  <jobString>Curing cataract.</jobString>
-  <ingredients>
-    <li>
-      <filter>
-        <categories>
-          <li>Medicine</li>
-        </categories>
-      </filter>
-      <count>2</count>
-    </li>
-  </ingredients>
-  <fixedIngredientFilter>
-    <categories>
-      <li>Medicine</li>
-    </categories>
-    <exceptedThingDefs>
-      <li>HerbalMedicine</li>
-    </exceptedThingDefs>
-  </fixedIngredientFilter>
-  <removesHediff>Cataract</removesHediff>
-</RecipeDef>
+</RecipeDef>    
 
     <!-- Chronic: HearingLoss -->
 <RecipeDef ParentName="SurgeryNormal">
@@ -628,6 +654,34 @@
 
 
               <!-- Hard Surgery -->
+<!-- Chronic: Cataract -->
+<RecipeDef ParentName="SurgeryNormal">
+  <defName>CureChronicCataract</defName>
+  <label>cure cataract</label>
+  <description>Cure cataract.</description>
+  <workerClass>Recipe_RemoveHediff</workerClass>
+  <jobString>Curing cataract.</jobString>
+  <ingredients>
+    <li>
+      <filter>
+        <categories>
+          <li>Medicine</li>
+        </categories>
+      </filter>
+      <count>3</count>
+    </li>
+  </ingredients>
+  <fixedIngredientFilter>
+    <categories>
+      <li>Medicine</li>
+    </categories>
+    <exceptedThingDefs>
+      <li>HerbalMedicine</li>
+    </exceptedThingDefs>
+  </fixedIngredientFilter>
+  <removesHediff>Cataract</removesHediff>
+</RecipeDef>
+
     <!-- Bones: Spine -->
 <RecipeDef ParentName="SurgeryHard">
   <defName>RepairBoneSpine</defName>
@@ -751,6 +805,47 @@
   </appliedOnFixedBodyParts>
 </RecipeDef>
 
+<!-- Bone/limb: Sternum -->
+<RecipeDef ParentName="SurgeryHard">
+  <defName>RepairBonesSternum</defName>
+  <label>repair Sternum</label>
+  <description>Repair Sternum</description>
+  <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+  <jobString>Repairing Sternum</jobString>
+  <ingredients>
+    <li>
+      <filter>
+        <categories>
+          <li>Medicine</li>
+        </categories>
+      </filter>
+      <count>2</count>
+    </li>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>Plasteel</li>
+        </thingDefs>
+      </filter>
+      <count>24</count>
+    </li>
+  </ingredients>
+  <fixedIngredientFilter>
+    <categories>
+      <li>Medicine</li>
+    </categories>
+    <exceptedThingDefs>
+      <li>HerbalMedicine</li>
+    </exceptedThingDefs>
+    <thingDefs>
+      <li>Plasteel</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+  <appliedOnFixedBodyParts>
+    <li>Sternum</li>    
+  </appliedOnFixedBodyParts>
+</RecipeDef>
+
     <!-- Chronic: Badback -->
 <RecipeDef ParentName="SurgeryHard">
   <defName>CureChronicBadBack</defName>
@@ -783,6 +878,9 @@
       <exceptedThingDefs>
         <li>HerbalMedicine</li>
       </exceptedThingDefs>
+      <thingDefs>
+        <li>Plasteel</li>
+      </thingDefs>
     </fixedIngredientFilter>
   <removesHediff>BadBack</removesHediff>
 </RecipeDef>
@@ -819,6 +917,9 @@
     <exceptedThingDefs>
       <li>HerbalMedicine</li>
     </exceptedThingDefs>
+    <thingDefs>
+      <li>Plasteel</li>
+    </thingDefs>
   </fixedIngredientFilter>
   <removesHediff>Frail</removesHediff>
 </RecipeDef>

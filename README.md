@@ -7,7 +7,7 @@ DESurgeries (originally by [DarknessEyes](https://ludeon.com/forums/index.php?to
 > * 8 chronic surgeries: Bad back, Frail, Cataract, Hearing loss, Dementia, Alzheimers, Asthma and Heart artery blockage.
 > * 12 injury surgeries: Burn, Crush, Crack, Cut, Surgical cut, Scratch, Bite, Stab, Gunshot, Shredded, Bruise, Frostbite.
 > * 2 Parasite surgeries : Muscle Parasite, Gut Worms
-> * 6 bone/limb surgeries: Finger, Toe, Mandible, Pelvis, Rib cage and Spine.
+> * 8 bone/limb surgeries: Finger, Toe, Mandible, Pelvis, Clavicles, Sternum, Rib cage and Spine.
 
 ____________________________
 **<======================[[DOWNLOAD](https://github.com/kaptain-kavern/DESurgeries/releases/latest)]======================>**
@@ -22,21 +22,21 @@ As for now, this mod is __not compatible__ with [EPOE](https://ludeon.com/forums
 * _Requires level 5 medicine._
 
 ## Normal surgeries:
-* Mandible, Finger, Toe, Ear, Nose, Cataract and Hearing loss.
+* Mandible, Finger, Toe, Clavicles, Ear, Nose and Hearing loss.
 * Work: 3,000.
 * Requires 2 units of medicine (Healroots cannot be used).
 * _Requires level 8 medicine._
-* Mandible surgery requires 10 Plasteel.
+* Mandible and clavicles surgeries requires 10 Plasteel.
 
 ## Hard surgeries:
 *You can try to heal Muscle Parasites and Gut Worms in one operation (instead of waiting for the 5 treatments in Vanilla) but it will cost you 5 units of medicine in one time. Also be aware of the risk of lethal failures (if the operation fail then there is a 10% chance of killing the patient)*
-* Asthma, Bad back, Frail, Rib cage, Spine, Pelvis, Muscle Parasites and Gut Worms.
+* Asthma, Cataract, Bad back, Frail, Rib cage, Spine, Pelvis, Sternum, Muscle Parasites and Gut Worms.
 * Work: 4,500.
 * Requires 3 units of medicine (Healroots cannot be used).
 * _Requires level 10 medicine._
 * __On failure there is 10% chance to kill the patient.__
 * Spine surgery and Bad Back treatment also requires 30 Plasteel.
-* Pelvis, Rib Cage surgery and Frail treatment also requires 24 Plasteel.
+* Pelvis, Sternum, Rib Cage surgery and Frail treatment also requires 24 Plasteel.
 * Muscle Parasites and Gut Worms treatment requires __5 units of medicine__
 
 ## Very hard surgeries:
