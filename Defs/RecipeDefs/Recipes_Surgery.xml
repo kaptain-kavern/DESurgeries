@@ -11,9 +11,8 @@
 
   <!-- Define 4 different difficulties -->
 <RecipeDef Name="SurgeryEasy" ParentName="SurgeryFlesh" Abstract="True">
-          <!-- Easy recipe, the skill of the colonist should not matters that much -->
-  <surgeonSurgerySuccessChanceExponent>0.5</surgeonSurgerySuccessChanceExponent>
-          <!-- Easy recipe, the quality and cleanliness of the room should not matters that much too -->
+          <!-- Easy recipe the skill of the colonist and quality/cleanliness of the room should not matters that much -->
+  <surgeonSurgerySuccessChanceExponent>0.5</surgeonSurgerySuccessChanceExponent>          
   <roomSurgerySuccessChanceFactorExponent>0.5</roomSurgerySuccessChanceFactorExponent>
   <surgerySuccessChanceFactor>0.95</surgerySuccessChanceFactor>
   <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
@@ -30,9 +29,8 @@
   </RecipeDef>
 
 <RecipeDef Name="SurgeryNormal" ParentName="SurgeryFlesh" Abstract="True">
-          <!-- The skill of the colonist should matters a bit -->
-  <surgeonSurgerySuccessChanceExponent>1</surgeonSurgerySuccessChanceExponent>
-          <!-- The quality and cleanliness of the room should matters a bit -->
+          <!-- The skill of the colonist and quality/cleanliness of the room should matters a bit -->
+  <surgeonSurgerySuccessChanceExponent>1</surgeonSurgerySuccessChanceExponent>         
   <roomSurgerySuccessChanceFactorExponent>2</roomSurgerySuccessChanceFactorExponent>
   <surgerySuccessChanceFactor>0.8</surgerySuccessChanceFactor>
   <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
@@ -49,9 +47,8 @@
 </RecipeDef>
 
 <RecipeDef Name="SurgeryHard" ParentName="SurgeryFlesh" Abstract="True">
-          <!-- The skill of the colonist should matters -->
+          <!-- The skill of the colonist and quality/cleanliness of the room should matters -->
   <surgeonSurgerySuccessChanceExponent>2</surgeonSurgerySuccessChanceExponent>
-          <!-- The quality and cleanliness of the room should matters -->
   <roomSurgerySuccessChanceFactorExponent>3</roomSurgerySuccessChanceFactorExponent>
   <surgerySuccessChanceFactor>0.6</surgerySuccessChanceFactor>
   <deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
@@ -68,9 +65,8 @@
 </RecipeDef>
 
 <RecipeDef Name="SurgeryVeryHard" ParentName="SurgeryFlesh" Abstract="True">
-          <!-- The skill of the colonist should matters a lot -->
+          <!-- The skill of the colonist and quality/cleanliness of the room should matters a lot -->
   <surgeonSurgerySuccessChanceExponent>3</surgeonSurgerySuccessChanceExponent>
-          <!-- The quality and cleanliness of the room should matters a lot -->
   <roomSurgerySuccessChanceFactorExponent>4</roomSurgerySuccessChanceFactorExponent>
   <surgerySuccessChanceFactor>0.5</surgerySuccessChanceFactor>
   <deathOnFailedSurgeryChance>0.25</deathOnFailedSurgeryChance>
@@ -653,8 +649,8 @@
 
     <!-- Cosmetic: Nose -->
 <RecipeDef ParentName="SurgeryNormal">
-  <defName>RepairCosmeticNose (2 med - no herb)</defName>
-  <label>repair nose</label>
+  <defName>RepairCosmeticNose</defName>
+  <label>repair nose (2 med - no herb)</label>
   <description>Repair nose (Cosmetic Surgery)</description>
   <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
   <jobString>Repairing nose</jobString>
