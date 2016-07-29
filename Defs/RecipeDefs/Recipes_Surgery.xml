@@ -1,10 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <RecipeDefs>
 
+<RecipeDef Abstract="True" Name="SurgeryFlesh">
+  <effectWorking>Surgery</effectWorking>
+  <soundWorking>Recipe_Surgery</soundWorking>
+  <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+  <workSkill>Medicine</workSkill>
+  <workSkillLearnFactor>16</workSkillLearnFactor>
+</RecipeDef>
+
   <!-- Define 4 different difficulties -->
 <RecipeDef Name="SurgeryEasy" ParentName="SurgeryFlesh" Abstract="True">
-  <surgeonSurgerySuccessChanceExponent>1</surgeonSurgerySuccessChanceExponent>
-  <roomSurgerySuccessChanceFactorExponent>2</roomSurgerySuccessChanceFactorExponent>
+          <!-- Easy recipe the skill of the colonist and quality/cleanliness of the room should not matters that much -->
+  <surgeonSurgerySuccessChanceExponent>0.5</surgeonSurgerySuccessChanceExponent>          
+  <roomSurgerySuccessChanceFactorExponent>0.5</roomSurgerySuccessChanceFactorExponent>
   <surgerySuccessChanceFactor>0.95</surgerySuccessChanceFactor>
   <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
   <workAmount>2000</workAmount>
@@ -20,8 +29,9 @@
   </RecipeDef>
 
 <RecipeDef Name="SurgeryNormal" ParentName="SurgeryFlesh" Abstract="True">
-  <surgeonSurgerySuccessChanceExponent>1.5</surgeonSurgerySuccessChanceExponent>
-  <roomSurgerySuccessChanceFactorExponent>3</roomSurgerySuccessChanceFactorExponent>
+          <!-- The skill of the colonist and quality/cleanliness of the room should matters a bit -->
+  <surgeonSurgerySuccessChanceExponent>1</surgeonSurgerySuccessChanceExponent>         
+  <roomSurgerySuccessChanceFactorExponent>2</roomSurgerySuccessChanceFactorExponent>
   <surgerySuccessChanceFactor>0.8</surgerySuccessChanceFactor>
   <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
   <workAmount>3000</workAmount>
@@ -37,8 +47,9 @@
 </RecipeDef>
 
 <RecipeDef Name="SurgeryHard" ParentName="SurgeryFlesh" Abstract="True">
+          <!-- The skill of the colonist and quality/cleanliness of the room should matters -->
   <surgeonSurgerySuccessChanceExponent>2</surgeonSurgerySuccessChanceExponent>
-  <roomSurgerySuccessChanceFactorExponent>4</roomSurgerySuccessChanceFactorExponent>
+  <roomSurgerySuccessChanceFactorExponent>3</roomSurgerySuccessChanceFactorExponent>
   <surgerySuccessChanceFactor>0.6</surgerySuccessChanceFactor>
   <deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
   <workAmount>4500</workAmount>
@@ -54,6 +65,7 @@
 </RecipeDef>
 
 <RecipeDef Name="SurgeryVeryHard" ParentName="SurgeryFlesh" Abstract="True">
+          <!-- The skill of the colonist and quality/cleanliness of the room should matters a lot -->
   <surgeonSurgerySuccessChanceExponent>3</surgeonSurgerySuccessChanceExponent>
   <roomSurgerySuccessChanceFactorExponent>4</roomSurgerySuccessChanceFactorExponent>
   <surgerySuccessChanceFactor>0.5</surgerySuccessChanceFactor>
@@ -75,9 +87,10 @@
     <!-- Injury: Burn -->
 <RecipeDef ParentName="SurgeryEasy">
   <defName>CureInjuryBurn</defName>
-  <label>cure burn</label>
+  <label>cure burn (2 med)</label>
   <description>Cure burn.</description>
   <workerClass>Recipe_RemoveHediff</workerClass>
+  <successfullyRemovedHediffMessage>{0} has successfully treated {1}'s burn.</successfullyRemovedHediffMessage>
   <jobString>Curing burn.</jobString>
   <ingredients>
     <li>
@@ -100,9 +113,10 @@
     <!-- Injury: Crush -->
 <RecipeDef ParentName="SurgeryEasy">
   <defName>CureInjuryCrush</defName>
-  <label>cure crush</label>
+  <label>cure crush (2 med)</label>
   <description>Cure crush.</description>
   <workerClass>Recipe_RemoveHediff</workerClass>
+  <successfullyRemovedHediffMessage>{0} has successfully treated {1}'s crush.</successfullyRemovedHediffMessage>
   <jobString>Curing crush.</jobString>
   <ingredients>
     <li>
@@ -125,9 +139,10 @@
     <!-- Injury: Crack -->
 <RecipeDef ParentName="SurgeryEasy">
   <defName>CureInjuryCrack</defName>
-  <label>cure crack</label>
+  <label>cure crack (2 med)</label>
   <description>Cure crack.</description>
   <workerClass>Recipe_RemoveHediff</workerClass>
+  <successfullyRemovedHediffMessage>{0} has successfully treated {1}'s crack.</successfullyRemovedHediffMessage>
   <jobString>Curing crack.</jobString>
   <ingredients>
     <li>
@@ -150,9 +165,10 @@
     <!-- Injury: Cut -->
 <RecipeDef ParentName="SurgeryEasy">
   <defName>CureInjuryCut</defName>
-  <label>cure cut</label>
+  <label>cure cut (2 med)</label>
   <description>Cure cut.</description>
   <workerClass>Recipe_RemoveHediff</workerClass>
+  <successfullyRemovedHediffMessage>{0} has successfully treated {1}'s cut.</successfullyRemovedHediffMessage>
   <jobString>Curing cut.</jobString>
   <ingredients>
     <li>
@@ -175,9 +191,10 @@
     <!-- Injury: SurgicalCut -->
 <RecipeDef ParentName="SurgeryEasy">
   <defName>CureInjurySurgicalCut</defName>
-  <label>cure surgical cut</label>
+  <label>cure surgical cut (2 med)</label>
   <description>Cure surgical cut.</description>
   <workerClass>Recipe_RemoveHediff</workerClass>
+  <successfullyRemovedHediffMessage>{0} has successfully treated {1}'s surgical cut.</successfullyRemovedHediffMessage>
   <jobString>Curing surgical cut.</jobString>
   <ingredients>
     <li>
@@ -200,9 +217,10 @@
     <!-- Injury: Scratch -->
 <RecipeDef ParentName="SurgeryEasy">
   <defName>CureInjuryScratch</defName>
-  <label>cure scratch</label>
+  <label>cure scratch (2 med)</label>
   <description>Cure scratch.</description>
   <workerClass>Recipe_RemoveHediff</workerClass>
+  <successfullyRemovedHediffMessage>{0} has successfully treated {1}'s scratch.</successfullyRemovedHediffMessage>
   <jobString>Curing scratch.</jobString>
   <ingredients>
     <li>
@@ -225,9 +243,10 @@
     <!-- Injury: Bite -->
 <RecipeDef ParentName="SurgeryEasy">
   <defName>CureInjuryBite</defName>
-  <label>cure bite</label>
+  <label>cure bite (2 med)</label>
   <description>Cure bite.</description>
   <workerClass>Recipe_RemoveHediff</workerClass>
+  <successfullyRemovedHediffMessage>{0} has successfully treated {1}'s bite.</successfullyRemovedHediffMessage>
   <jobString>Curing bite.</jobString>
   <ingredients>
     <li>
@@ -250,9 +269,10 @@
     <!-- Injury: Stab -->
 <RecipeDef ParentName="SurgeryEasy">
   <defName>CureInjuryStab</defName>
-  <label>cure stab</label>
+  <label>cure stab (2 med)</label>
   <description>Cure stab.</description>
   <workerClass>Recipe_RemoveHediff</workerClass>
+  <successfullyRemovedHediffMessage>{0} has successfully treated {1}'s stab.</successfullyRemovedHediffMessage>
   <jobString>Curing stab.</jobString>
   <ingredients>
     <li>
@@ -275,9 +295,10 @@
     <!-- Injury: Gunshot -->
 <RecipeDef ParentName="SurgeryEasy">
   <defName>CureInjuryGunshot</defName>
-  <label>cure gunshot</label>
+  <label>cure gunshot (2 med)</label>
   <description>Cure gunshot.</description>
   <workerClass>Recipe_RemoveHediff</workerClass>
+  <successfullyRemovedHediffMessage>{0} has successfully treated {1}'s Gunshot.</successfullyRemovedHediffMessage>
   <jobString>Curing gunshot.</jobString>
   <ingredients>
     <li>
@@ -300,9 +321,10 @@
     <!-- Injury: Shredded -->
 <RecipeDef ParentName="SurgeryEasy">
   <defName>CureInjuryShredded</defName>
-  <label>cure shredded</label>
+  <label>cure shredded (2 med)</label>
   <description>Cure shredded.</description>
   <workerClass>Recipe_RemoveHediff</workerClass>
+  <successfullyRemovedHediffMessage>{0} has successfully treated {1}'s shredding.</successfullyRemovedHediffMessage>
   <jobString>Curing shredded.</jobString>
   <ingredients>
     <li>
@@ -325,9 +347,10 @@
     <!-- Injury: Bruise -->
 <RecipeDef ParentName="SurgeryEasy">
   <defName>CureInjuryBruise</defName>
-  <label>cure bruise</label>
+  <label>cure bruise (2 med)</label>
   <description>Cure bruise.</description>
   <workerClass>Recipe_RemoveHediff</workerClass>
+  <successfullyRemovedHediffMessage>{0} has successfully treated {1}'s bruise.</successfullyRemovedHediffMessage>
   <jobString>Curing bruise.</jobString>
   <ingredients>
     <li>
@@ -350,9 +373,10 @@
     <!-- Injury: Frostbite -->
 <RecipeDef ParentName="SurgeryEasy">
   <defName>CureInjuryFrostbite</defName>
-  <label>cure frostbite</label>
+  <label>cure frostbite (2 med)</label>
   <description>Cure frostbite.</description>
   <workerClass>Recipe_RemoveHediff</workerClass>
+  <successfullyRemovedHediffMessage>{0} has successfully treated {1}'s frostbite.</successfullyRemovedHediffMessage>
   <jobString>Curing frostbite.</jobString>
   <ingredients>
     <li>
@@ -375,7 +399,7 @@
     <!-- Sedate -->
 <RecipeDef ParentName="SurgeryEasy">
   <defName>InjectMedicine</defName>
-  <label>Sedate</label>
+  <label>Sedate (3 med)</label>
   <description>Anesthetize patient for him to recover faster</description>
   <workerClass>Recipe_InstallImplant</workerClass>
   <jobString>Sedating.</jobString>
@@ -405,7 +429,7 @@
     <!-- Bone/limb: Mandible -->
 <RecipeDef ParentName="SurgeryNormal">
   <defName>RepairBonesMandible</defName>
-  <label>repair mandible</label>
+  <label>repair mandible (10 plasteel/2 med - no herb/)</label>
   <description>Repair mandible</description>
   <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
   <jobString>Repairing mandible</jobString>
@@ -446,7 +470,7 @@
     <!-- Bone/limb: clavicle -->
 <RecipeDef ParentName="SurgeryNormal">
   <defName>RepairBonesClavicle</defName>
-  <label>repair clavicle</label>
+  <label>repair clavicle (10 plasteel/2 med - no herb/)</label>
   <description>Repair clavicle</description>
   <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
   <jobString>Repairing clavicle</jobString>
@@ -483,12 +507,12 @@
     <li>LeftClavicle</li>
     <li>RightClavicle</li>
   </appliedOnFixedBodyParts>
-</RecipeDef>    
+</RecipeDef>
 
     <!-- Bone/limb finger -->
 <RecipeDef ParentName="SurgeryNormal">
   <defName>RepairFinger</defName>
-  <label>repair finger</label>
+  <label>repair finger (2 med - no herb)</label>
   <description>Repair finger</description>
   <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
   <jobString>Repairing finger</jobString>
@@ -527,7 +551,7 @@
     <!-- Bone/limb toe -->
 <RecipeDef ParentName="SurgeryNormal">
   <defName>RepairToe</defName>
-  <label>repair toe</label>
+  <label>repair toe (2 med - no herb)</label>
   <description>Repair toe</description>
   <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
   <jobString>Repairing toe</jobString>
@@ -561,14 +585,15 @@
     <li>RightFootSecondToe</li>
     <li>RightFootBigToe</li>
   </appliedOnFixedBodyParts>
-</RecipeDef>    
+</RecipeDef>
 
     <!-- Chronic: HearingLoss -->
 <RecipeDef ParentName="SurgeryNormal">
   <defName>CureChronicHearingLoss</defName>
-  <label>cure hearing loss</label>
+  <label>cure hearing loss (2 med - no herb)</label>
   <description>Cure hearing loss.</description>
   <workerClass>Recipe_RemoveHediff</workerClass>
+  <successfullyRemovedHediffMessage>{0} has successfully treated {1}'s hearing loss.</successfullyRemovedHediffMessage>
   <jobString>Curing hearing loss.</jobString>
   <ingredients>
     <li>
@@ -594,7 +619,7 @@
     <!-- Cosmetic: Ear -->
 <RecipeDef ParentName="SurgeryNormal">
   <defName>RepairCosmeticEar</defName>
-  <label>repair ear</label>
+  <label>repair ear (2 med - no herb)</label>
   <description>Repair ear (Cosmetic Surgery)</description>
   <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
   <jobString>Repairing ear</jobString>
@@ -625,7 +650,7 @@
     <!-- Cosmetic: Nose -->
 <RecipeDef ParentName="SurgeryNormal">
   <defName>RepairCosmeticNose</defName>
-  <label>repair nose</label>
+  <label>repair nose (2 med - no herb)</label>
   <description>Repair nose (Cosmetic Surgery)</description>
   <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
   <jobString>Repairing nose</jobString>
@@ -657,9 +682,10 @@
 <!-- Chronic: Cataract -->
 <RecipeDef ParentName="SurgeryNormal">
   <defName>CureChronicCataract</defName>
-  <label>cure cataract</label>
+  <label>cure cataract (3 med - no herb)</label>
   <description>Cure cataract.</description>
   <workerClass>Recipe_RemoveHediff</workerClass>
+  <successfullyRemovedHediffMessage>{0} has successfully treated {1}'s cataract.</successfullyRemovedHediffMessage>
   <jobString>Curing cataract.</jobString>
   <ingredients>
     <li>
@@ -685,7 +711,7 @@
     <!-- Bones: Spine -->
 <RecipeDef ParentName="SurgeryHard">
   <defName>RepairBoneSpine</defName>
-  <label>repair spine</label>
+  <label>repair spine (3 plasteel/3 med - no herb)</label>
   <description>Repair spine</description>
   <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
   <jobString>Repairing spine</jobString>
@@ -726,7 +752,7 @@
     <!-- Bones: RibCage -->
 <RecipeDef ParentName="SurgeryHard">
   <defName>RepairBonesRibCage</defName>
-  <label>repair rib cage</label>
+  <label>repair rib cage (24 plasteel/3 med - no herb)</label>
   <description>Repair rib cage</description>
   <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
   <jobString>Repairing rib cage</jobString>
@@ -767,7 +793,7 @@
 <!-- Bones: Pelvis -->
 <RecipeDef ParentName="SurgeryHard">
   <defName>RepairBonesPelvis</defName>
-  <label>repair Pelvis</label>
+  <label>repair Pelvis (24 plasteel/3 med - no herb)</label>
   <description>Repair Pelvis</description>
   <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
   <jobString>Repairing Pelvis</jobString>
@@ -808,7 +834,7 @@
 <!-- Bone/limb: Sternum -->
 <RecipeDef ParentName="SurgeryHard">
   <defName>RepairBonesSternum</defName>
-  <label>repair Sternum</label>
+  <label>repair Sternum (24 plasteel/3 med - no herb)</label>
   <description>Repair Sternum</description>
   <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
   <jobString>Repairing Sternum</jobString>
@@ -842,16 +868,17 @@
     </thingDefs>
   </fixedIngredientFilter>
   <appliedOnFixedBodyParts>
-    <li>Sternum</li>    
+    <li>Sternum</li>
   </appliedOnFixedBodyParts>
 </RecipeDef>
 
     <!-- Chronic: Badback -->
 <RecipeDef ParentName="SurgeryHard">
   <defName>CureChronicBadBack</defName>
-  <label>cure bad back</label>
+  <label>cure bad back (30 plasteel/3 med - no herb)</label>
   <description>Cure bad back.</description>
   <workerClass>Recipe_RemoveHediff</workerClass>
+  <successfullyRemovedHediffMessage>{0} has successfully treated {1}'s bad back.</successfullyRemovedHediffMessage>
   <jobString>Curing bad back.</jobString>
   <ingredients>
       <li>
@@ -888,9 +915,10 @@
     <!-- Chronic: Frail -->
 <RecipeDef ParentName="SurgeryHard">
   <defName>CureChronicFrail</defName>
-  <label>cure frail</label>
+  <label>cure frail (24 plasteel/3 med - no herb/)</label>
   <description>Cure frail.</description>
   <workerClass>Recipe_RemoveHediff</workerClass>
+  <successfullyRemovedHediffMessage>{0} has successfully treated {1}'s frailty.</successfullyRemovedHediffMessage>
   <jobString>Curing frail.</jobString>
   <ingredients>
       <li>
@@ -927,7 +955,7 @@
     <!-- Chronic: Asthma -->
 <RecipeDef ParentName="SurgeryHard">
   <defName>CureChronicAsthma</defName>
-  <label>cure asthma</label>
+  <label>cure asthma (3 med - no herb)</label>
   <description>Cure asthma.</description>
   <workerClass>Recipe_RemoveHediff</workerClass>
   <jobString>Curing asthma.</jobString>
@@ -957,9 +985,10 @@
     <!-- Cure Muscle Parasites -->
 <RecipeDef ParentName="SurgeryHard">
   <defName>CureMuscleParasites</defName>
-  <label>cure muscle parasites</label>
+  <label>cure muscle parasites (5 med - no herb)</label>
   <description>Cure muscle parasites in one pass. More risky but heal fast</description>
   <workerClass>Recipe_RemoveHediff</workerClass>
+  <successfullyRemovedHediffMessage>{0} has successfully treated {1}'s muscle parasites.</successfullyRemovedHediffMessage>
   <jobString>Curing muscle parasites.</jobString>
   <ingredients>
     <li>
@@ -985,9 +1014,10 @@
     <!-- Cure Gut Worms -->
 <RecipeDef ParentName="SurgeryHard">
   <defName>CureGutWorms</defName>
-  <label>cure gut worms</label>
+  <label>cure gut worms (5 med - no herb)</label>
   <description>Cure gut worms in one pass. More risky but heal fast</description>
   <workerClass>Recipe_RemoveHediff</workerClass>
+  <successfullyRemovedHediffMessage>{0} has successfully treated {1}'s gut worms.</successfullyRemovedHediffMessage>
   <jobString>Curing gut worms.</jobString>
   <ingredients>
     <li>
@@ -1015,9 +1045,10 @@
     <!-- Chronic: Dementia -->
 <RecipeDef ParentName="SurgeryVeryHard">
   <defName>CureChronicDementia</defName>
-  <label>cure dementia</label>
+  <label>cure dementia (3 Glit. Med)</label>
   <description>Cure dementia.</description>
   <workerClass>Recipe_RemoveHediff</workerClass>
+  <successfullyRemovedHediffMessage>{0} has successfully treated {1}'s dementia.</successfullyRemovedHediffMessage>
   <jobString>Curing dementia.</jobString>
   <ingredients>
     <li>
@@ -1044,10 +1075,11 @@
     <!-- Chronic: Alzheimers -->
 <RecipeDef ParentName="SurgeryVeryHard">
   <defName>CureChronicAlzheimers</defName>
-  <label>cure alzheimers</label>
+  <label>cure alzheimers (3 Glit. Med)</label>
   <description>Cure alzheimers.</description>
   <workerClass>Recipe_RemoveHediff</workerClass>
-  <jobString>Curing alzheimers.</jobString>
+  <successfullyRemovedHediffMessage>{0} has successfully treated {1}'s alzheimer's.</successfullyRemovedHediffMessage>
+  <jobString>Curing alzheimer's.</jobString>
   <ingredients>
     <li>
       <filter>
@@ -1067,15 +1099,16 @@
       <li>Medicine</li>
     </exceptedThingDefs>
   </fixedIngredientFilter>
-  <removesHediff>Dementia</removesHediff>
+  <removesHediff>Alzheimers</removesHediff>
 </RecipeDef>
 
     <!-- Chronic: HeartArteryBlockage -->
 <RecipeDef ParentName="SurgeryVeryHard">
   <defName>CureChronicHeartArteryBlockage</defName>
-  <label>cure artery blockage</label>
+  <label>cure artery blockage (3 Glit. Med)</label>
   <description>Cure artery blockage.</description>
   <workerClass>Recipe_RemoveHediff</workerClass>
+  <successfullyRemovedHediffMessage>{0} has successfully treated {1}'s artery blockage.</successfullyRemovedHediffMessage>
   <jobString>Curing artery blockage.</jobString>
   <ingredients>
     <li>
