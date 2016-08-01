@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<!-- Перевод: Man232 (Николай) -->
+	<!-- Помощь в переводе: Desert Rain (Диана) https://vk.com/id162264007 -->
+	
+	<!-- Easy Surgery -->
+    <!-- Injury: Burn -->
+	<CureInjuryBurn.label>Вылечить ожог (2 мед)</CureInjuryBurn.label>
+	<CureInjuryBurn.description>Восстанавливает кожу на месте ожога.</CureInjuryBurn.description>
+	<CureInjuryBurn.jobString>Лечит ожог.</CureInjuryBurn.jobString>
+	<!-- Injury: Crush -->
+	<CureInjuryCrush.label>Вылечить раздавленную часть (2 мед)</CureInjuryCrush.label>
+	<CureInjuryCrush.description>Восстанавливает раздавленную часть тела.</CureInjuryCrush.description>
+	<CureInjuryCrush.jobString>Лечит раздавленную часть.</CureInjuryCrush.jobString>
+	<!-- Injury: Crack -->
+	<CureInjuryCrack.label>Вылечить трещину (2 мед)</CureInjuryCrack.label>
+	<CureInjuryCrack.description>Лечит трещину.</CureInjuryCrack.description>
+	<CureInjuryCrack.jobString>Лечит трещину.</CureInjuryCrack.jobString>
+	<!-- Injury: Cut -->
+	<CureInjuryCut.label>Вылечить порез (2 мед)</CureInjuryCut.label>
+	<CureInjuryCut.description>Лечит порез.</CureInjuryCut.description>
+	<CureInjuryCut.jobString>Лечит порез.</CureInjuryCut.jobString>
+	<!-- Injury: SurgicalCut -->
+	<CureInjurySurgicalCut.label>Вылечить хирургический порез (2 мед)</CureInjurySurgicalCut.label>
+	<CureInjurySurgicalCut.description>Лечит хирургический порез.</CureInjurySurgicalCut.description>
+	<CureInjurySurgicalCut.jobString>Лечит хирургический порез.</CureInjurySurgicalCut.jobString>
+	<!-- Injury: Scratch -->
+	<CureInjuryScratch.label>Вылечить царапину (2 мед)</CureInjuryScratch.label>
+	<CureInjuryScratch.description>Лечит царапину.</CureInjuryScratch.description>
+	<CureInjuryScratch.jobString>Лечит царапину.</CureInjuryScratch.jobString>
+	<!-- Injury: Bite -->
+	<CureInjuryBite.label>Вылечить укус (2 мед)</CureInjuryBite.label>
+	<CureInjuryBite.description>Лечит укус.</CureInjuryBite.description>
+	<CureInjuryBite.jobString>Лечит укус.</CureInjuryBite.jobString>
+	<!-- Injury: Stab -->
+	<CureInjuryStab.label>Вылечить удар (2 мед)</CureInjuryStab.label>
+	<CureInjuryStab.description>Лечит удар.</CureInjuryStab.description>
+	<CureInjuryStab.jobString>Лечит удар.</CureInjuryStab.jobString>
+	<!-- Injury: Gunshot -->
+	<CureInjuryGunshot.label>Вылечить шрам от пули (2 мед)</CureInjuryGunshot.label>
+	<CureInjuryGunshot.description>Лечит шрам от пули.</CureInjuryGunshot.description>
+	<CureInjuryGunshot.jobString>Лечит шрам от пули.</CureInjuryGunshot.jobString>
+	<!-- Injury: Shredded -->
+	<CureInjuryShredded.label>Вылечить раздробленную часть (2 мед)</CureInjuryShredded.label>
+	<CureInjuryShredded.description>Лечит раздробленную часть тела.</CureInjuryShredded.description>
+	<CureInjuryShredded.jobString>Лечит раздробленную часть.</CureInjuryShredded.jobString>
+	<!-- Injury: Bruise -->
+	<CureInjuryBruise.label>Вылечить синяк (2 мед)</CureInjuryBruise.label>
+	<CureInjuryBruise.description>Лечит синяк.</CureInjuryBruise.description>
+	<CureInjuryBruise.jobString>Лечит синяк.</CureInjuryBruise.jobString>
+	<!-- Injury: Frostbite -->
+	<CureInjuryFrostbite.label>Вылечить обморожение (2 мед)</CureInjuryFrostbite.label>
+	<CureInjuryFrostbite.description>Лечит обмороженные части тела, спасая кожные ткани и пораженные участки.</CureInjuryFrostbite.description>
+	<CureInjuryFrostbite.jobString>Лечит обморожение.</CureInjuryFrostbite.jobString>
+	<!-- Sedate -->
+	<InjectMedicine.label>Успокоительное (3 мед)</InjectMedicine.label>
+	<InjectMedicine.description>Обезболивающие для пациента, способствующее снижению чувства боли.</InjectMedicine.description>
+	<InjectMedicine.jobString>Успокоительное</InjectMedicine.jobString>
+	
+	<!-- Normal Surgery -->
+    <!-- Bone/limb: Mandible -->
+	<RepairBonesMandible.label>Восстановить челюсть (10 пластали/2 мед - не травы)</RepairBonesMandible.label>
+	<RepairBonesMandible.description>Восстанавливает челюсть.</RepairBonesMandible.description>
+	<RepairBonesMandible.jobString>Восстанавливает челюсть.</RepairBonesMandible.jobString>
+	<!-- Bone/limb: clavicle -->
+	<RepairBonesClavicle.label>Восстановить ключицу (10 пластали/2 мед - не травы)</RepairBonesClavicle.label>
+	<RepairBonesClavicle.description>Восстанавливает ключицу.</RepairBonesClavicle.description>
+	<RepairBonesClavicle.jobString>Восстанавливает ключицу.</RepairBonesClavicle.jobString>
+	<!-- Bone/limb finger -->
+	<RepairFinger.label>Восстановить палец (2 мед - не травы)</RepairFinger.label>
+	<RepairFinger.description>Восстанавливает палец.</RepairFinger.description>
+	<RepairFinger.jobString>Восстанавливает палец.</RepairFinger.jobString>
+	<!-- Bone/limb toe -->
+	<RepairToe.label>Восстановить ногу (2 мед - не травы)</RepairToe.label>
+	<RepairToe.description>Восстанавливает ногу.</RepairToe.description>
+	<RepairToe.jobString>Восстанавливает ногу.</RepairToe.jobString>
+	<!-- Chronic: HearingLoss -->
+	<CureChronicHearingLoss.label>Вылечить потерю слуха (2 мед - не травы)</CureChronicHearingLoss.label>
+	<CureChronicHearingLoss.description>Лечит потерю слуха.</CureChronicHearingLoss.description>
+	<CureChronicHearingLoss.jobString>Лечит потерю слуха.</CureChronicHearingLoss.jobString>
+	<!-- Cosmetic: Ear -->
+	<RepairCosmeticEar.label>Восстановить ухо (2 мед - не травы)</RepairCosmeticEar.label>
+	<RepairCosmeticEar.description>Восстанавливает ухо путем косметической хирургии. </RepairCosmeticEar.description>
+	<RepairCosmeticEar.jobString>Восстанавливает ухо</RepairCosmeticEar.jobString>
+	<!-- Cosmetic: Nose -->
+	<RepairCosmeticNose.label>Восстановить нос (2 мед - не травы)</RepairCosmeticNose.label>
+	<RepairCosmeticNose.description>Восстанавливает нос путем косметической хирургии.</RepairCosmeticNose.description>
+	<RepairCosmeticNose.jobString>Восстанавливает нос</RepairCosmeticNose.jobString>
+	
+	<!-- Hard Surgery -->
+	<!-- Chronic: Cataract -->
+	<CureChronicCataract.label>Вылечить катаракту (3 мед - не травы)</CureChronicCataract.label>
+	<CureChronicCataract.description>Лечит катаракту и нормализует зрение.</CureChronicCataract.description>
+	<CureChronicCataract.jobString>Лечит катаракту.</CureChronicCataract.jobString>
+	<!-- Bones: Spine -->
+	<RepairBoneSpine.label>Востановить позвоночник (3 пластали/3 мед - не травы)</RepairBoneSpine.label>
+	<RepairBoneSpine.description>Восстанавливает позвоночник.</RepairBoneSpine.description>
+	<RepairBoneSpine.jobString>Восстанавливает позвоночник.</RepairBoneSpine.jobString>
+	<!-- Bones: RibCage -->
+	<RepairBonesRibCage.label>Восстановить ребро (24 пластали/3 мед - не травы)</RepairBonesRibCage.label>
+	<RepairBonesRibCage.description>Восстанавливает ребро.</RepairBonesRibCage.description>
+	<RepairBonesRibCage.jobString>Восстанавливает ребро.</RepairBonesRibCage.jobString>
+	<!-- Bones: Pelvis -->
+	<RepairBonesPelvis.label>Восстановить таз (24 пластали/3 мед - не травы)</RepairBonesPelvis.label>
+	<RepairBonesPelvis.description>Восстанавливает таз.</RepairBonesPelvis.description>
+	<RepairBonesPelvis.jobString>Восстанавливает таз.</RepairBonesPelvis.jobString>
+	<!-- Bone/limb: Sternum -->
+	<RepairBonesSternum.label>Восстановить торс (24 пластали/3 мед - не травы)</RepairBonesSternum.label>
+	<RepairBonesSternum.description>Восстанавливает торс.</RepairBonesSternum.description>
+	<RepairBonesSternum.jobString>Восстанавливает торс.</RepairBonesSternum.jobString>
+	<!-- Chronic: Badback -->
+	<CureChronicBadBack.label>Вылечить боль в спине (30 пластали/3 мед - не травы)</CureChronicBadBack.label>
+	<CureChronicBadBack.description>Лечит боль в спине.</CureChronicBadBack.description>
+	<CureChronicBadBack.jobString>Лечит боль в спине</CureChronicBadBack.jobString>
+	<!-- Chronic: Frail -->
+	<CureChronicFrail.label>Вылечить немощность (24 пластали/3 мед - не травы)</CureChronicFrail.label>
+	<CureChronicFrail.description>Лечит немощность.</CureChronicFrail.description>
+	<CureChronicFrail.jobString>Лечит немощность.</CureChronicFrail.jobString>
+	<!-- Chronic: Asthma -->
+	<CureChronicAsthma.label>Вылечить астму (3 мед - не травы)</CureChronicAsthma.label>
+	<CureChronicAsthma.description>Лечит астму.</CureChronicAsthma.description>
+	<CureChronicAsthma.jobString>Лечит астму.</CureChronicAsthma.jobString>
+	<!-- Cure Muscle Parasites --> 
+	<CureMuscleParasites.label>Вылечить мышечных паразитов (5 мед - не травы)</CureMuscleParasites.label>
+	<CureMuscleParasites.description>Лечит мышечных паразитов.</CureMuscleParasites.description>
+	<CureMuscleParasites.jobString>Лечит мышечных паразитов.</CureMuscleParasites.jobString>
+	<!-- Cure Gut Worms -->
+	<CureGutWorms.label>Вылечить кишечных червей (5 мед - не травы)</CureGutWorms.label>
+	<CureGutWorms.description>Выводит кишечных червей в одну операцию. Рискованно, но быстро заживет.</CureGutWorms.description>
+	<CureGutWorms.jobString>Лечит кишечных червей.</CureGutWorms.jobString>
+	
+	<!-- Very Hard Surgery -->
+    <!-- Chronic: Dementia -->
+	<CureChronicDementia.label>Вылечить слабоумие (3 Glit. Мед)</CureChronicDementia.label>
+	<CureChronicDementia.description>Лечит слабоумие.</CureChronicDementia.description>
+	<CureChronicDementia.jobString>Лечит слабоумие</CureChronicDementia.jobString>
+	<!-- Chronic: Alzheimers -->
+	<CureChronicAlzheimers.label>Вылечить болезнь Альцгеймера (3 Glit. Мед)</CureChronicAlzheimers.label>
+	<CureChronicAlzheimers.description>Лечит болезнь Альцгеймера.</CureChronicAlzheimers.description>
+	<CureChronicAlzheimers.jobString>Лечит болезнь Альцгеймера.</CureChronicAlzheimers.jobString>
+	<!-- Chronic: HeartArteryBlockage -->
+	<CureChronicHeartArteryBlockage.label>Вылечить болезнь сердца (3 Glit. Мед)</CureChronicHeartArteryBlockage.label>
+	<CureChronicHeartArteryBlockage.description>Лечит болезнь сердца.</CureChronicHeartArteryBlockage.description>
+	<CureChronicHeartArteryBlockage.jobString>Лечит болезнь сердца.</CureChronicHeartArteryBlockage.jobString>
+
+</LanguageData>

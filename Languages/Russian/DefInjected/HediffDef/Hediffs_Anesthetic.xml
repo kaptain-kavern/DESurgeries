@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<AnestheticInjected.label>анестетик</AnestheticInjected.label>
+	<AnestheticInjected.stages.0.label>сознание</AnestheticInjected.stages.0.label>
+	<AnestheticInjected.stages.1.label>фильтрации крови</AnestheticInjected.stages.1.label>
+	<AnestheticInjected.stages.2.label>перекачка крови</AnestheticInjected.stages.2.label>
+</LanguageData>
