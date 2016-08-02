@@ -1,7 +1,10 @@
-﻿Данный мод: https://ludeon.com/forums/index.php?topic=22120
-Был переведен:
+﻿Данный мод: https://ludeon.com/forums/index.php?topic=22120 
+Версия мода: 1.1.1 
+Версия переврда 0.2
+Авторы перевода:
 1. Man232
-2. Desert Rain (https://vk.com/public125309740)
+2. Desert Rain 
+Группа вк: https://vk.com/public125309740
 
 Перевод может быть не точным, могут быть ошибки или еще что-то.
 
