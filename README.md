@@ -52,5 +52,4 @@ The more the surgery difficulty increase, the more the Quality/Cleanliness of th
 ______________________
 
 Thanks to our Translators !
-
-    + RU : by Man232 and Desert Rain
+- RU : by Man232 and Desert Rain
