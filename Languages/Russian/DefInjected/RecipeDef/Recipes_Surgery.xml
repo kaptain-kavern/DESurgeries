@@ -5,164 +5,164 @@
 	
 	<!-- Easy Surgery -->
     <!-- Injury: Burn -->
-	<CureInjuryBurn.label>Вылечить ожог (2 мед)</CureInjuryBurn.label>
+	<CureInjuryBurn.label>Вылечить ожог (2 мед.)</CureInjuryBurn.label>
 	<CureInjuryBurn.description>Восстанавливает кожу на месте ожога.</CureInjuryBurn.description>
 	<CureInjuryBurn.jobString>Лечит ожог.</CureInjuryBurn.jobString>
-	<CureInjuryBurn.successfullyRemovedHediffMessage>{0} успешно вылечил/а {1} ожог.</CureInjuryBurn.successfullyRemovedHediffMessage>
+	<CureInjuryBurn.successfullyRemovedHediffMessage>{0} успешно вылечил(а) {1} ожог.</CureInjuryBurn.successfullyRemovedHediffMessage>
 	<!-- Injury: Crush -->
-	<CureInjuryCrush.label>Вылечить раздавленную часть (2 мед)</CureInjuryCrush.label>
+	<CureInjuryCrush.label>Вылечить раздавленную часть тела (2 мед.)</CureInjuryCrush.label>
 	<CureInjuryCrush.description>Восстанавливает раздавленную часть тела.</CureInjuryCrush.description>
 	<CureInjuryCrush.jobString>Лечит раздавленную часть.</CureInjuryCrush.jobString>
-	<CureInjuryCrush.successfullyRemovedHediffMessage>{0} успешно вылечил {1} раздавленную часть.</CureInjuryCrush.successfullyRemovedHediffMessage>
+	<CureInjuryCrush.successfullyRemovedHediffMessage>{0} успешно вылечил(а) {1} раздавленную часть тела.</CureInjuryCrush.successfullyRemovedHediffMessage>
 	<!-- Injury: Crack -->
-	<CureInjuryCrack.label>Вылечить трещину (2 мед)</CureInjuryCrack.label>
+	<CureInjuryCrack.label>Вылечить трещину (2 мед.)</CureInjuryCrack.label>
 	<CureInjuryCrack.description>Лечит трещину.</CureInjuryCrack.description>
 	<CureInjuryCrack.jobString>Лечит трещину.</CureInjuryCrack.jobString>
-	<CureInjuryCrack.successfullyRemovedHediffMessage>{0} успешно вылечил/а {1} трещину.</CureInjuryCrack.successfullyRemovedHediffMessage>
+	<CureInjuryCrack.successfullyRemovedHediffMessage>{0} успешно вылечил(а) {1} трещину.</CureInjuryCrack.successfullyRemovedHediffMessage>
 	<!-- Injury: Cut -->
 	<CureInjuryCut.label>Вылечить порез (2 мед)</CureInjuryCut.label>
 	<CureInjuryCut.description>Лечит порез.</CureInjuryCut.description>
 	<CureInjuryCut.jobString>Лечит порез.</CureInjuryCut.jobString>
-	<CureInjuryCut.successfullyRemovedHediffMessage>{0} успешно вылечил/а {1} порез.</CureInjuryCut.successfullyRemovedHediffMessage>
+	<CureInjuryCut.successfullyRemovedHediffMessage>{0} успешно вылечил(а) {1} порез.</CureInjuryCut.successfullyRemovedHediffMessage>
 	<!-- Injury: SurgicalCut -->
-	<CureInjurySurgicalCut.label>Вылечить хирургический порез (2 мед)</CureInjurySurgicalCut.label>
+	<CureInjurySurgicalCut.label>Вылечить хирургический порез (2 мед.)</CureInjurySurgicalCut.label>
 	<CureInjurySurgicalCut.description>Лечит хирургический порез.</CureInjurySurgicalCut.description>
 	<CureInjurySurgicalCut.jobString>Лечит хирургический порез.</CureInjurySurgicalCut.jobString>
-	<CureInjurySurgicalCut.successfullyRemovedHediffMessage>{0} успешно вылечил/а {1} хирургический порез.</CureInjurySurgicalCut.successfullyRemovedHediffMessage>
+	<CureInjurySurgicalCut.successfullyRemovedHediffMessage>{0} успешно вылечил(а) {1} хирургический порез.</CureInjurySurgicalCut.successfullyRemovedHediffMessage>
 	<!-- Injury: Scratch -->
-	<CureInjuryScratch.label>Вылечить царапину (2 мед)</CureInjuryScratch.label>
+	<CureInjuryScratch.label>Вылечить царапину (2 мед.)</CureInjuryScratch.label>
 	<CureInjuryScratch.description>Лечит царапину.</CureInjuryScratch.description>
 	<CureInjuryScratch.jobString>Лечит царапину.</CureInjuryScratch.jobString>
-	<CureInjuryScratch.successfullyRemovedHediffMessage>{0} успешно вылечил/а {1} царапину.</CureInjuryScratch.successfullyRemovedHediffMessage>
+	<CureInjuryScratch.successfullyRemovedHediffMessage>{0} успешно вылечил(а) {1} царапину.</CureInjuryScratch.successfullyRemovedHediffMessage>
 	<!-- Injury: Bite -->
-	<CureInjuryBite.label>Вылечить укус (2 мед)</CureInjuryBite.label>
+	<CureInjuryBite.label>Вылечить укус (2 мед.)</CureInjuryBite.label>
 	<CureInjuryBite.description>Лечит укус.</CureInjuryBite.description>
 	<CureInjuryBite.jobString>Лечит укус.</CureInjuryBite.jobString>
-	<CureInjuryBite.successfullyRemovedHediffMessage>{0} успешно вылечил/а {1} укус.</CureInjuryBite.successfullyRemovedHediffMessage>
+	<CureInjuryBite.successfullyRemovedHediffMessage>{0} успешно вылечил(а) {1} укус.</CureInjuryBite.successfullyRemovedHediffMessage>
 	<!-- Injury: Stab -->
-	<CureInjuryStab.label>Вылечить удар (2 мед)</CureInjuryStab.label>
-	<CureInjuryStab.description>Лечит удар.</CureInjuryStab.description>
-	<CureInjuryStab.jobString>Лечит удар.</CureInjuryStab.jobString>
-	<CureInjuryStab.successfullyRemovedHediffMessage>{0} успешно вылечил/а {1} удар.</CureInjuryStab.successfullyRemovedHediffMessage>
+	<CureInjuryStab.label>Вылечить ушиб от удара (2 мед.)</CureInjuryStab.label>
+	<CureInjuryStab.description>Лечит ушиб от удара.</CureInjuryStab.description>
+	<CureInjuryStab.jobString>Лечит ушиб от удара.</CureInjuryStab.jobString>
+	<CureInjuryStab.successfullyRemovedHediffMessage>{0} успешно вылечил(а) {1} ушиб от удара.</CureInjuryStab.successfullyRemovedHediffMessage>
 	<!-- Injury: Gunshot -->
-	<CureInjuryGunshot.label>Вылечить шрам от пули (2 мед)</CureInjuryGunshot.label>
+	<CureInjuryGunshot.label>Вылечить шрам от пули (2 мед.)</CureInjuryGunshot.label>
 	<CureInjuryGunshot.description>Лечит шрам от пули.</CureInjuryGunshot.description>
 	<CureInjuryGunshot.jobString>Лечит шрам от пули.</CureInjuryGunshot.jobString>
-	<CureInjuryGunshot.successfullyRemovedHediffMessage>{0} успешно вылечил/а {1} шрам от пули.</CureInjuryGunshot.successfullyRemovedHediffMessage>
+	<CureInjuryGunshot.successfullyRemovedHediffMessage>{0} успешно вылечил(а) {1} шрам от пули.</CureInjuryGunshot.successfullyRemovedHediffMessage>
 	<!-- Injury: Shredded -->
-	<CureInjuryShredded.label>Вылечить раздробленную часть (2 мед)</CureInjuryShredded.label>
+	<CureInjuryShredded.label>Вылечить раздробленную часть тела (2 мед.)</CureInjuryShredded.label>
 	<CureInjuryShredded.description>Лечит раздробленную часть тела.</CureInjuryShredded.description>
 	<CureInjuryShredded.jobString>Лечит раздробленную часть.</CureInjuryShredded.jobString>
-	<successfullyRemovedHediffMessage>{0} успешно вылечил/а {1} раздробленную часть.</successfullyRemovedHediffMessage>
+	<CureInjuryShredded.successfullyRemovedHediffMessage>{0} успешно вылечил(а) {1} раздробленную часть тела.</CureInjuryShredded.successfullyRemovedHediffMessage>
 	<!-- Injury: Bruise -->
-	<CureInjuryBruise.label>Вылечить синяк (2 мед)</CureInjuryBruise.label>
+	<CureInjuryBruise.label>Вылечить синяк (2 мед.)</CureInjuryBruise.label>
 	<CureInjuryBruise.description>Лечит синяк.</CureInjuryBruise.description>
 	<CureInjuryBruise.jobString>Лечит синяк.</CureInjuryBruise.jobString>
-	<CureInjuryBruise.successfullyRemovedHediffMessage>{0} успешно вылечил/а {1} синяк.</CureInjuryBruise.successfullyRemovedHediffMessage>
+	<CureInjuryBruise.successfullyRemovedHediffMessage>{0} успешно вылечил(а) {1} синяк.</CureInjuryBruise.successfullyRemovedHediffMessage>
 	<!-- Injury: Frostbite -->
-	<CureInjuryFrostbite.label>Вылечить обморожение (2 мед)</CureInjuryFrostbite.label>
+	<CureInjuryFrostbite.label>Вылечить обморожение (2 мед.)</CureInjuryFrostbite.label>
 	<CureInjuryFrostbite.description>Лечит обмороженные части тела, спасая кожные ткани и пораженные участки.</CureInjuryFrostbite.description>
 	<CureInjuryFrostbite.jobString>Лечит обморожение.</CureInjuryFrostbite.jobString>
-	<CureInjuryFrostbite.successfullyRemovedHediffMessage>{0} успешно вылечил/а {1} обморожение.</CureInjuryFrostbite.successfullyRemovedHediffMessage>
+	<CureInjuryFrostbite.successfullyRemovedHediffMessage>{0} успешно вылечил(а) {1} обморожение.</CureInjuryFrostbite.successfullyRemovedHediffMessage>
 	<!-- Sedate -->
-	<InjectMedicine.label>Успокоительное (3 мед)</InjectMedicine.label>
-	<InjectMedicine.description>Обезболивающие для пациента, способствующее снижению чувства боли.</InjectMedicine.description>
-	<InjectMedicine.jobString>Успокоительное</InjectMedicine.jobString>
+	<InjectMedicine.label>Успокоительное (3 мед.)</InjectMedicine.label>
+	<InjectMedicine.description>ПРЕДУПРЕЖДЕНИЕ: Не используйте данный препарат, ибо он недоработан и введет вашего колониста в состояние "овоща". Обезболивающие для пациента, способствующее снижению чувства боли. </InjectMedicine.description>
+	<InjectMedicine.jobString>Вкалывает успокоительное.</InjectMedicine.jobString>
 	
 	<!-- Normal Surgery -->
     <!-- Bone/limb: Mandible -->
-	<RepairBonesMandible.label>Восстановить челюсть (10 пластали/2 мед - не травы)</RepairBonesMandible.label>
+	<RepairBonesMandible.label>Восстановить челюсть (10 пластали/2 мед.)</RepairBonesMandible.label>
 	<RepairBonesMandible.description>Восстанавливает челюсть.</RepairBonesMandible.description>
 	<RepairBonesMandible.jobString>Восстанавливает челюсть.</RepairBonesMandible.jobString>
 	<!-- Bone/limb: clavicle -->
-	<RepairBonesClavicle.label>Восстановить ключицу (10 пластали/2 мед - не травы)</RepairBonesClavicle.label>
+	<RepairBonesClavicle.label>Восстановить ключицу (10 пластали/2 мед.)</RepairBonesClavicle.label>
 	<RepairBonesClavicle.description>Восстанавливает ключицу.</RepairBonesClavicle.description>
 	<RepairBonesClavicle.jobString>Восстанавливает ключицу.</RepairBonesClavicle.jobString>
 	<!-- Bone/limb finger -->
-	<RepairFinger.label>Восстановить палец (2 мед - не травы)</RepairFinger.label>
+	<RepairFinger.label>Восстановить палец (2 мед.)</RepairFinger.label>
 	<RepairFinger.description>Восстанавливает палец.</RepairFinger.description>
 	<RepairFinger.jobString>Восстанавливает палец.</RepairFinger.jobString>
 	<!-- Bone/limb toe -->
-	<RepairToe.label>Восстановить ногу (2 мед - не травы)</RepairToe.label>
+	<RepairToe.label>Восстановить ногу (2 мед.)</RepairToe.label>
 	<RepairToe.description>Восстанавливает ногу.</RepairToe.description>
 	<RepairToe.jobString>Восстанавливает ногу.</RepairToe.jobString>
 	<!-- Chronic: HearingLoss -->
-	<CureChronicHearingLoss.label>Вылечить потерю слуха (2 мед - не травы)</CureChronicHearingLoss.label>
+	<CureChronicHearingLoss.label>Вылечить потерю слуха (2 мед.)</CureChronicHearingLoss.label>
 	<CureChronicHearingLoss.description>Лечит потерю слуха.</CureChronicHearingLoss.description>
 	<CureChronicHearingLoss.jobString>Лечит потерю слуха.</CureChronicHearingLoss.jobString>
-	<CureChronicHearingLoss.successfullyRemovedHediffMessage>{0} успешно вылечил/а {1} потерю слуха.</CureChronicHearingLoss.successfullyRemovedHediffMessage>
+	<CureChronicHearingLoss.successfullyRemovedHediffMessage>{0} успешно вылечил(а) потерю слуха.</CureChronicHearingLoss.successfullyRemovedHediffMessage>
 	<!-- Cosmetic: Ear -->
-	<RepairCosmeticEar.label>Восстановить ухо (2 мед - не травы)</RepairCosmeticEar.label>
+	<RepairCosmeticEar.label>Восстановить ухо (2 мед.)</RepairCosmeticEar.label>
 	<RepairCosmeticEar.description>Восстанавливает ухо путем косметической хирургии. </RepairCosmeticEar.description>
 	<RepairCosmeticEar.jobString>Восстанавливает ухо</RepairCosmeticEar.jobString>
 	<!-- Cosmetic: Nose -->
-	<RepairCosmeticNose.label>Восстановить нос (2 мед - не травы)</RepairCosmeticNose.label>
+	<RepairCosmeticNose.label>Восстановить нос (2 мед.)</RepairCosmeticNose.label>
 	<RepairCosmeticNose.description>Восстанавливает нос путем косметической хирургии.</RepairCosmeticNose.description>
 	<RepairCosmeticNose.jobString>Восстанавливает нос</RepairCosmeticNose.jobString>
 	
 	<!-- Hard Surgery -->
 	<!-- Chronic: Cataract -->
-	<CureChronicCataract.label>Вылечить катаракту (3 мед - не травы)</CureChronicCataract.label>
+	<CureChronicCataract.label>Вылечить катаракту (3 мед.)</CureChronicCataract.label>
 	<CureChronicCataract.description>Лечит катаракту и нормализует зрение.</CureChronicCataract.description>
 	<CureChronicCataract.jobString>Лечит катаракту.</CureChronicCataract.jobString>
-	<CureChronicCataract.successfullyRemovedHediffMessage>{0} успешно вылечил/а {1} катаракту.</CureChronicCataract.successfullyRemovedHediffMessage>
+	<CureChronicCataract.successfullyRemovedHediffMessage>{0} успешно вылечил(а) {1} катаракту.</CureChronicCataract.successfullyRemovedHediffMessage>
 	<!-- Bones: Spine -->
-	<RepairBoneSpine.label>Востановить позвоночник (3 пластали/3 мед - не травы)</RepairBoneSpine.label>
+	<RepairBoneSpine.label>Востановить позвоночник (3 пластали/3 мед.)</RepairBoneSpine.label>
 	<RepairBoneSpine.description>Восстанавливает позвоночник.</RepairBoneSpine.description>
 	<RepairBoneSpine.jobString>Восстанавливает позвоночник.</RepairBoneSpine.jobString>
 	<!-- Bones: RibCage -->
-	<RepairBonesRibCage.label>Восстановить ребро (24 пластали/3 мед - не травы)</RepairBonesRibCage.label>
+	<RepairBonesRibCage.label>Восстановить ребро (24 пластали/3 мед.)</RepairBonesRibCage.label>
 	<RepairBonesRibCage.description>Восстанавливает ребро.</RepairBonesRibCage.description>
 	<RepairBonesRibCage.jobString>Восстанавливает ребро.</RepairBonesRibCage.jobString>
 	<!-- Bones: Pelvis -->
-	<RepairBonesPelvis.label>Восстановить таз (24 пластали/3 мед - не травы)</RepairBonesPelvis.label>
+	<RepairBonesPelvis.label>Восстановить таз (24 пластали/3 мед.)</RepairBonesPelvis.label>
 	<RepairBonesPelvis.description>Восстанавливает таз.</RepairBonesPelvis.description>
 	<RepairBonesPelvis.jobString>Восстанавливает таз.</RepairBonesPelvis.jobString>
 	<!-- Bone/limb: Sternum -->
-	<RepairBonesSternum.label>Восстановить торс (24 пластали/3 мед - не травы)</RepairBonesSternum.label>
+	<RepairBonesSternum.label>Восстановить торс (24 пластали/3 мед.)</RepairBonesSternum.label>
 	<RepairBonesSternum.description>Восстанавливает торс.</RepairBonesSternum.description>
 	<RepairBonesSternum.jobString>Восстанавливает торс.</RepairBonesSternum.jobString>
 	<!-- Chronic: Badback -->
-	<CureChronicBadBack.label>Вылечить боль в спине (30 пластали/3 мед - не травы)</CureChronicBadBack.label>
+	<CureChronicBadBack.label>Вылечить боль в спине (30 пластали/3 мед.)</CureChronicBadBack.label>
 	<CureChronicBadBack.description>Лечит боль в спине.</CureChronicBadBack.description>
 	<CureChronicBadBack.jobString>Лечит боль в спине</CureChronicBadBack.jobString>
-	<CureChronicBadBack.successfullyRemovedHediffMessage>{0} успешно вылечил/а {1} боль в спине.</CureChronicBadBack.successfullyRemovedHediffMessage>
+	<CureChronicBadBack.successfullyRemovedHediffMessage>{0} успешно вылечил(а) {1} боль в спине.</CureChronicBadBack.successfullyRemovedHediffMessage>
 	<!-- Chronic: Frail -->
-	<CureChronicFrail.label>Вылечить слабость (24 пластали/3 мед - не травы)</CureChronicFrail.label>
-	<CureChronicFrail.description>Лечит слабость.</CureChronicFrail.description>
-	<CureChronicFrail.jobString>Лечит слабость.</CureChronicFrail.jobString>
-	<CureChronicFrail.successfullyRemovedHediffMessage>{0} успешно вылечил/а {1} слабость.</CureChronicFrail.successfullyRemovedHediffMessage>
+	<CureChronicFrail.label>Вылечить немощность (24 пластали/3 мед.)</CureChronicFrail.label>
+	<CureChronicFrail.description>Лечит немощность.</CureChronicFrail.description>
+	<CureChronicFrail.jobString>Лечит немощность.</CureChronicFrail.jobString>
+	<CureChronicFrail.successfullyRemovedHediffMessage>{0} успешно вылечил(а) {1} немощность.</CureChronicFrail.successfullyRemovedHediffMessage>
 	<!-- Chronic: Asthma -->
-	<CureChronicAsthma.label>Вылечить астму (3 мед - не травы)</CureChronicAsthma.label>
+	<CureChronicAsthma.label>Вылечить астму (3 мед.)</CureChronicAsthma.label>
 	<CureChronicAsthma.description>Лечит астму.</CureChronicAsthma.description>
 	<CureChronicAsthma.jobString>Лечит астму.</CureChronicAsthma.jobString>
-	<CureChronicAsthma.successfullyRemovedHediffMessage>{0} успешно вылечил/а {1} астму.</CureChronicAsthma.successfullyRemovedHediffMessage>
+	<CureChronicAsthma.successfullyRemovedHediffMessage>{0} успешно вылечил(а) {1} астму.</CureChronicAsthma.successfullyRemovedHediffMessage>
 	<!-- Cure Muscle Parasites --> 
-	<CureMuscleParasites.label>Вылечить мышечных паразитов (5 мед - не травы)</CureMuscleParasites.label>
+	<CureMuscleParasites.label>Вылечить мышечных паразитов (5 мед.)</CureMuscleParasites.label>
 	<CureMuscleParasites.description>Лечит мышечных паразитов.</CureMuscleParasites.description>
 	<CureMuscleParasites.jobString>Лечит мышечных паразитов.</CureMuscleParasites.jobString>
-	<CureMuscleParasites.successfullyRemovedHediffMessage>{0} успешно вылечил/а {1} мышечных паразитов.</CureMuscleParasites.successfullyRemovedHediffMessage>
+	<CureMuscleParasites.successfullyRemovedHediffMessage>{0} успешно вылечил(а) {1} мышечных паразитов.</CureMuscleParasites.successfullyRemovedHediffMessage>
 	<!-- Cure Gut Worms -->
-	<CureGutWorms.label>Вылечить кишечных червей (5 мед - не травы)</CureGutWorms.label>
+	<CureGutWorms.label>Вылечить кишечных червей (5 мед.)</CureGutWorms.label>
 	<CureGutWorms.description>Выводит кишечных червей в одну операцию. Рискованно, но быстро заживет.</CureGutWorms.description>
-	<CureGutWorms.jobString>Лечит кишечных червей.</CureGutWorms.jobString>
-	<CureGutWorms.successfullyRemovedHediffMessage>{0} успешно вылечил/а {1} кишечных червей.</CureGutWorms.successfullyRemovedHediffMessage>
+	<CureGutWorms.jobString>Лечит кишечных червей.</CureGutWorms.jobString>  
+	<CureGutWorms.successfullyRemovedHediffMessage>{0} успешно вылечил(а) {1} кишечных червей.</CureGutWorms.successfullyRemovedHediffMessage>
 	
 	<!-- Very Hard Surgery -->
     <!-- Chronic: Dementia -->
-	<CureChronicDementia.label>Вылечить слабоумие (3 Glit. Мед)</CureChronicDementia.label>
+	<CureChronicDementia.label>Вылечить слабоумие (3 Продв. мед.)</CureChronicDementia.label>
 	<CureChronicDementia.description>Лечит слабоумие.</CureChronicDementia.description>
 	<CureChronicDementia.jobString>Лечит слабоумие</CureChronicDementia.jobString>
-	<CureChronicDementia.successfullyRemovedHediffMessage>{0} успешно вылечил/а {1} слабоумие.</CureChronicDementia.successfullyRemovedHediffMessage>
+	<CureChronicDementia.successfullyRemovedHediffMessage>{0} успешно вылечил(а) {1} слабоумие.</CureChronicDementia.successfullyRemovedHediffMessage>
 	<!-- Chronic: Alzheimers -->
-	<CureChronicAlzheimers.label>Вылечить болезнь Альцгеймера (3 Glit. Мед)</CureChronicAlzheimers.label>
+	<CureChronicAlzheimers.label>Вылечить болезнь Альцгеймера (3 Продв. мед.)</CureChronicAlzheimers.label>
 	<CureChronicAlzheimers.description>Лечит болезнь Альцгеймера.</CureChronicAlzheimers.description>
 	<CureChronicAlzheimers.jobString>Лечит болезнь Альцгеймера.</CureChronicAlzheimers.jobString>
-	<CureChronicAlzheimers.successfullyRemovedHediffMessage>{0} успешно вылечил/а {1} болезнь Альцгеймера.</CureChronicAlzheimers.successfullyRemovedHediffMessage>
+	<CureChronicAlzheimers.successfullyRemovedHediffMessage>{0} успешно вылечил(а) {1} болезнь Альцгеймера.</CureChronicAlzheimers.successfullyRemovedHediffMessage>
 	<!-- Chronic: HeartArteryBlockage -->
-	<CureChronicHeartArteryBlockage.label>Вылечить болезнь сердца (3 Glit. Мед)</CureChronicHeartArteryBlockage.label>
+	<CureChronicHeartArteryBlockage.label>Вылечить болезнь сердца (3 Продв. мед.)</CureChronicHeartArteryBlockage.label>
 	<CureChronicHeartArteryBlockage.description>Лечит болезнь сердца.</CureChronicHeartArteryBlockage.description>
 	<CureChronicHeartArteryBlockage.jobString>Лечит болезнь сердца.</CureChronicHeartArteryBlockage.jobString>
-	<CureChronicHeartArteryBlockage.successfullyRemovedHediffMessage>{0} успешно вылечил/а {1} болезнь сердца.</CureChronicHeartArteryBlockage.successfullyRemovedHediffMessage>
+	<CureChronicHeartArteryBlockage.successfullyRemovedHediffMessage>{0} успешно вылечил(а) {1} болезнь сердца.</CureChronicHeartArteryBlockage.successfullyRemovedHediffMessage>
 
 </LanguageData>
