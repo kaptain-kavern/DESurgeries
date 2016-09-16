@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <RecipeDefs>
 
-<RecipeDef Abstract="True" Name="SurgeryFlesh">
-  <effectWorking>Surgery</effectWorking>
-  <soundWorking>Recipe_Surgery</soundWorking>
-  <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
-  <workSkill>Medicine</workSkill>
-  <workSkillLearnFactor>16</workSkillLearnFactor>
-</RecipeDef>
+  <RecipeDef Abstract="True" Name="SurgeryFlesh">
+    <effectWorking>Surgery</effectWorking>
+    <soundWorking>Recipe_Surgery</soundWorking>
+    <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+    <workSkill>Medicine</workSkill>
+    <workSkillLearnFactor>16</workSkillLearnFactor>
+  </RecipeDef>
 
   <!-- Define 4 different difficulties -->
 <RecipeDef Name="SurgeryEasy" ParentName="SurgeryFlesh" Abstract="True">
