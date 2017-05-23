@@ -9,12 +9,10 @@
     <workSkillLearnFactor>16</workSkillLearnFactor>
   </RecipeDef>
 
-  <!-- Define 4 different difficulties -->
-<RecipeDef Name="SurgeryEasy" ParentName="SurgeryFlesh" Abstract="True">
+<!-- Define 4 different difficulties -->
+  <RecipeDef Name="SurgeryEasy" ParentName="SurgeryFlesh" Abstract="True">
           <!-- Easy recipe the skill of the colonist and quality/cleanliness of the room should not matters that much -->
-  <surgeonSurgerySuccessChanceExponent>0.5</surgeonSurgerySuccessChanceExponent>          
-  <roomSurgerySuccessChanceFactorExponent>0.5</roomSurgerySuccessChanceFactorExponent>
-  <surgerySuccessChanceFactor>0.95</surgerySuccessChanceFactor>
+  <surgerySuccessChanceFactor>1.1</surgerySuccessChanceFactor>
   <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
   <workAmount>2000</workAmount>
   <recipeUsers>
@@ -30,9 +28,7 @@
 
 <RecipeDef Name="SurgeryNormal" ParentName="SurgeryFlesh" Abstract="True">
           <!-- The skill of the colonist and quality/cleanliness of the room should matters a bit -->
-  <surgeonSurgerySuccessChanceExponent>1</surgeonSurgerySuccessChanceExponent>         
-  <roomSurgerySuccessChanceFactorExponent>2</roomSurgerySuccessChanceFactorExponent>
-  <surgerySuccessChanceFactor>0.8</surgerySuccessChanceFactor>
+  <surgerySuccessChanceFactor>0.95</surgerySuccessChanceFactor>
   <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
   <workAmount>3000</workAmount>
   <recipeUsers>
@@ -48,9 +44,7 @@
 
 <RecipeDef Name="SurgeryHard" ParentName="SurgeryFlesh" Abstract="True">
           <!-- The skill of the colonist and quality/cleanliness of the room should matters -->
-  <surgeonSurgerySuccessChanceExponent>2</surgeonSurgerySuccessChanceExponent>
-  <roomSurgerySuccessChanceFactorExponent>3</roomSurgerySuccessChanceFactorExponent>
-  <surgerySuccessChanceFactor>0.6</surgerySuccessChanceFactor>
+  <surgerySuccessChanceFactor>0.85</surgerySuccessChanceFactor>
   <deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
   <workAmount>4500</workAmount>
   <recipeUsers>
@@ -66,10 +60,8 @@
 
 <RecipeDef Name="SurgeryVeryHard" ParentName="SurgeryFlesh" Abstract="True">
           <!-- The skill of the colonist and quality/cleanliness of the room should matters a lot -->
-  <surgeonSurgerySuccessChanceExponent>3</surgeonSurgerySuccessChanceExponent>
-  <roomSurgerySuccessChanceFactorExponent>4</roomSurgerySuccessChanceFactorExponent>
-  <surgerySuccessChanceFactor>0.5</surgerySuccessChanceFactor>
-  <deathOnFailedSurgeryChance>0.25</deathOnFailedSurgeryChance>
+  <surgerySuccessChanceFactor>0.7</surgerySuccessChanceFactor>
+  <deathOnFailedSurgeryChance>0.2</deathOnFailedSurgeryChance>
   <workAmount>6000</workAmount>
   <recipeUsers>
     <li>Human</li>
@@ -395,35 +387,6 @@
   </fixedIngredientFilter>
   <removesHediff>Frostbite</removesHediff>
 </RecipeDef>
-
-    <!-- Sedate -->
-<RecipeDef ParentName="SurgeryEasy">
-  <defName>InjectMedicine</defName>
-  <label>Sedate (3 med)</label>
-  <description>Anesthetize patient for him to recover faster</description>
-  <workerClass>Recipe_InstallImplant</workerClass>
-  <jobString>Sedating.</jobString>
-  <ingredients>
-    <li>
-      <filter>
-        <categories>
-          <li>Medicine</li>
-        </categories>
-      </filter>
-      <count>3</count>
-    </li>
-  </ingredients>
-  <fixedIngredientFilter>
-    <categories>
-      <li>Medicine</li>
-    </categories>
-  </fixedIngredientFilter>
-  <appliedOnFixedBodyParts>
-    <li>Torso</li>
-  </appliedOnFixedBodyParts>
-  <addsHediff>AnestheticInjected</addsHediff>
-</RecipeDef>
-
 
                 <!-- Normal Surgery -->
     <!-- Bone/limb: Mandible -->
