@@ -2,7 +2,7 @@
 <ModMetaData>
 <name>DE Surgeries</name>
 <author>DarknessEyes</author>
-<targetVersion>0.15.0</targetVersion>
+<targetVersion>0.17.0</targetVersion>
 <description>New surgeries:
 * Repair ear damage.
 * Repair nose damage.
@@ -10,7 +10,8 @@
 * Remove gut worms and muscle parasite.
 * Use glitterworld medicine to cure chronic diseases.
 * Inject medicine to put patient into sleep and increase healing speed.
-/n/ Shamelessly updated to A14 without permission by KapTaiN_KaVerN
 * Added Pelvis reconstruction
+/n/ Shamelessly updated through A14 to A17 without permission by KapTaiN_KaVerN
+
 </description>
 </ModMetaData>
