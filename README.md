@@ -2,7 +2,6 @@
 DESurgeries (originally by [DarknessEyes](https://ludeon.com/forums/index.php?topic=18976.0))  taken from [Aristocat's Medical Complication Mod Pack](https://ludeon.com/forums/index.php?topic=20708.0)
 
 > Adds new surgeries to Rimworld.
-> * Possibily to sedate patient
 > * 2 cosmetic surgeries: Ear and Nose.
 > * 8 chronic surgeries: Bad back, Frail, Cataract, Hearing loss, Dementia, Alzheimers, Asthma and Heart artery blockage.
 > * 12 injury surgeries: Burn, Crush, Crack, Cut, Surgical cut, Scratch, Bite, Stab, Gunshot, Shredded, Bruise, Frostbite.
@@ -12,7 +11,7 @@ DESurgeries (originally by [DarknessEyes](https://ludeon.com/forums/index.php?to
 ____________________________
 **<======================[[DOWNLOAD](https://github.com/kaptain-kavern/DESurgeries/releases/latest)]======================>**
 ____________________________
-This mod is __fully compatible__ with [EPOE](https://ludeon.com/forums/index.php?topic=10571.msg104518#msg104518) or any other medical mods that i know of.
+This mod is __fully compatible__ with [EPOE](https://ludeon.com/forums/index.php?topic=10571.msg104518#msg104518).
 
 # Description :
 The more the surgery difficulty increase, the more the Quality/Cleanliness of the hospital bed/room and the Medicine skill value will impact chances of success
@@ -47,7 +46,7 @@ The more the surgery difficulty increase, the more the Quality/Cleanliness of th
 * Work: 6,000.
 * Requires 3 units of Glitterworld Medicine (Healroots and standard medecine cannot be used).
 * _Requires level 15 medicine._
-* __On failure there is 25% chance to kill the patient.__
+* __On failure there is 20% chance to kill the patient.__
 
 ______________________
 
