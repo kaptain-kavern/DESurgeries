@@ -17,7 +17,7 @@ This mod is __fully compatible__ with [EPOE](https://ludeon.com/forums/index.php
 The more the surgery difficulty increase, the more the Quality/Cleanliness of the hospital bed/room and the Medicine skill value will impact chances of success
 
 ## Easy surgeries:
-*You can choose to quickly treat those injuries instead of waiting for them to slowly heal (and maybe cause infections), but it will cost you more medical resources. You also now have the ability to sedate a colonist (for __3 units of medecine__) to put him in artificial sleep, that way he can recover faster after surgeries*
+*You can choose to quickly treat those injuries instead of waiting for them to slowly heal (and maybe cause infections), but it will cost you more medical resources.*
 * Burn, Crush, Crack, Cut, Surgical cut, Scratch, Bite, Stab, Gunshot, Shredded, Bruise and Frostbite.
 * Work: 2,000.
 * Requires 2 units of medicine (Healroots can be used).
