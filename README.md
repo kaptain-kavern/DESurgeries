@@ -1,3 +1,4 @@
+[![Version](https://img.shields.io/badge/Rimworld-A17-red.svg)](http://rimworldgame.com/)
 # DESurgeries
 DESurgeries (originally by [DarknessEyes](https://ludeon.com/forums/index.php?topic=18976.0))  taken from [Aristocat's Medical Complication Mod Pack](https://ludeon.com/forums/index.php?topic=20708.0)
 
