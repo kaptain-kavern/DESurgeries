@@ -664,46 +664,7 @@
   <removesHediff>Cataract</removesHediff>
 </RecipeDef>
 
-    <!-- Bones: Spine -->
-<RecipeDef ParentName="SurgeryHard">
-  <defName>RepairBoneSpine</defName>
-  <label>repair spine (3 plasteel/3 med - no herb)</label>
-  <description>Repair spine</description>
-  <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
-  <jobString>Repairing spine</jobString>
-  <ingredients>
-    <li>
-      <filter>
-        <categories>
-          <li>Medicine</li>
-        </categories>
-      </filter>
-      <count>3</count>
-    </li>
-    <li>
-      <filter>
-        <thingDefs>
-          <li>Plasteel</li>
-        </thingDefs>
-      </filter>
-      <count>30</count>
-    </li>
-  </ingredients>
-  <fixedIngredientFilter>
-    <categories>
-      <li>Medicine</li>
-    </categories>
-    <exceptedThingDefs>
-      <li>HerbalMedicine</li>
-    </exceptedThingDefs>
-    <thingDefs>
-      <li>Plasteel</li>
-    </thingDefs>
-  </fixedIngredientFilter>
-  <appliedOnFixedBodyParts>
-    <li>Spine</li>
-  </appliedOnFixedBodyParts>
-</RecipeDef>
+
 
     <!-- Bones: RibCage -->
 <RecipeDef ParentName="SurgeryHard">
@@ -746,46 +707,7 @@
   </appliedOnFixedBodyParts>
 </RecipeDef>
 
-<!-- Bones: Pelvis -->
-<RecipeDef ParentName="SurgeryHard">
-  <defName>RepairBonesPelvis</defName>
-  <label>repair Pelvis (24 plasteel/3 med - no herb)</label>
-  <description>Repair Pelvis</description>
-  <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
-  <jobString>Repairing Pelvis</jobString>
-  <ingredients>
-    <li>
-      <filter>
-        <categories>
-          <li>Medicine</li>
-        </categories>
-      </filter>
-      <count>3</count>
-    </li>
-    <li>
-      <filter>
-        <thingDefs>
-          <li>Plasteel</li>
-        </thingDefs>
-      </filter>
-      <count>24</count>
-    </li>
-  </ingredients>
-  <fixedIngredientFilter>
-    <categories>
-      <li>Medicine</li>
-    </categories>
-    <exceptedThingDefs>
-      <li>HerbalMedicine</li>
-    </exceptedThingDefs>
-    <thingDefs>
-      <li>Plasteel</li>
-    </thingDefs>
-  </fixedIngredientFilter>
-  <appliedOnFixedBodyParts>
-    <li>Pelvis</li>
-  </appliedOnFixedBodyParts>
-</RecipeDef>
+
 
 <!-- Bone/limb: Sternum -->
 <RecipeDef ParentName="SurgeryHard">
@@ -996,86 +918,6 @@
   </appliedOnFixedBodyParts>
 </RecipeDef>
 
-    <!-- Chronic: Badback -->
-<RecipeDef ParentName="SurgeryHard">
-  <defName>CureChronicBadBack</defName>
-  <label>cure/repair bad back (30 plasteel/3 med - no herb)</label>
-  <description>Cure bad back.</description>
-  <workerClass>Recipe_RemoveHediff</workerClass>
-  <successfullyRemovedHediffMessage>{0} has successfully treated {1}'s bad back.</successfullyRemovedHediffMessage>
-  <jobString>Curing bad back.</jobString>
-  <ingredients>
-      <li>
-        <filter>
-          <categories>
-            <li>Medicine</li>
-          </categories>
-        </filter>
-        <count>3</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Plasteel</li>
-          </thingDefs>
-        </filter>
-        <count>30</count>
-      </li>
-    </ingredients>
-  <fixedIngredientFilter>
-    <categories>
-      <li>Medicine</li>
-    </categories>
-      <exceptedThingDefs>
-        <li>HerbalMedicine</li>
-      </exceptedThingDefs>
-      <thingDefs>
-        <li>Plasteel</li>
-      </thingDefs>
-    </fixedIngredientFilter>
-  <removesHediff>BadBack</removesHediff>
-</RecipeDef>
-
-    <!-- Chronic: Frail -->
-<RecipeDef ParentName="SurgeryHard">
-  <defName>CureChronicFrail</defName>
-  <label>cure frail (24 plasteel/3 med - no herb/)</label>
-  <description>Cure frail.</description>
-  <workerClass>Recipe_RemoveHediff</workerClass>
-  <successfullyRemovedHediffMessage>{0} has successfully treated {1}'s frailty.</successfullyRemovedHediffMessage>
-  <jobString>Curing frail.</jobString>
-  <ingredients>
-      <li>
-        <filter>
-          <categories>
-            <li>Medicine</li>
-          </categories>
-        </filter>
-        <count>3</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Plasteel</li>
-          </thingDefs>
-        </filter>
-        <count>24</count>
-      </li>
-    </ingredients>
-  <fixedIngredientFilter>
-    <categories>
-      <li>Medicine</li>
-    </categories>
-    <exceptedThingDefs>
-      <li>HerbalMedicine</li>
-    </exceptedThingDefs>
-    <thingDefs>
-      <li>Plasteel</li>
-    </thingDefs>
-  </fixedIngredientFilter>
-  <removesHediff>Frail</removesHediff>
-</RecipeDef>
-
     <!-- Chronic: Asthma -->
 <RecipeDef ParentName="SurgeryHard">
   <defName>CureChronicAsthma</defName>
@@ -1194,6 +1036,89 @@
 </RecipeDef>
 
               <!-- Very Hard Surgery -->
+
+    <!-- Bones: Spine -->
+<RecipeDef ParentName="SurgeryVeryHard">
+  <defName>RepairBoneSpine</defName>
+  <label>repair spine (80 plasteel/3 med - no herb)</label>
+  <description>Repair spine</description>
+  <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+  <jobString>Repairing spine</jobString>
+  <ingredients>
+    <li>
+      <filter>
+        <categories>
+          <li>Medicine</li>
+        </categories>
+      </filter>
+      <count>3</count>
+    </li>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>Plasteel</li>
+        </thingDefs>
+      </filter>
+      <count>80</count>
+    </li>
+  </ingredients>
+  <fixedIngredientFilter>
+    <categories>
+      <li>Medicine</li>
+    </categories>
+    <exceptedThingDefs>
+      <li>HerbalMedicine</li>
+    </exceptedThingDefs>
+    <thingDefs>
+      <li>Plasteel</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+  <appliedOnFixedBodyParts>
+    <li>Spine</li>
+  </appliedOnFixedBodyParts>
+</RecipeDef>
+
+<!-- Bones: Pelvis -->
+<RecipeDef ParentName="SurgeryVeryHard">
+  <defName>RepairBonesPelvis</defName>
+  <label>repair Pelvis (80 plasteel/3 med - no herb)</label>
+  <description>Repair Pelvis</description>
+  <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+  <jobString>Repairing Pelvis</jobString>
+  <ingredients>
+    <li>
+      <filter>
+        <categories>
+          <li>Medicine</li>
+        </categories>
+      </filter>
+      <count>3</count>
+    </li>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>Plasteel</li>
+        </thingDefs>
+      </filter>
+      <count>80</count>
+    </li>
+  </ingredients>
+  <fixedIngredientFilter>
+    <categories>
+      <li>Medicine</li>
+    </categories>
+    <exceptedThingDefs>
+      <li>HerbalMedicine</li>
+    </exceptedThingDefs>
+    <thingDefs>
+      <li>Plasteel</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+  <appliedOnFixedBodyParts>
+    <li>Pelvis</li>
+  </appliedOnFixedBodyParts>
+</RecipeDef>
+
     <!-- Chronic: Dementia -->
 <RecipeDef ParentName="SurgeryVeryHard">
   <defName>CureChronicDementia</defName>
@@ -1252,6 +1177,86 @@
     </exceptedThingDefs>
   </fixedIngredientFilter>
   <removesHediff>Alzheimers</removesHediff>
+</RecipeDef>
+
+    <!-- Chronic: Badback -->
+<RecipeDef ParentName="SurgeryVeryHard">
+  <defName>CureChronicBadBack</defName>
+  <label>cure/repair bad back (80 plasteel/3 med - no herb)</label>
+  <description>Cure bad back.</description>
+  <workerClass>Recipe_RemoveHediff</workerClass>
+  <successfullyRemovedHediffMessage>{0} has successfully treated {1}'s bad back.</successfullyRemovedHediffMessage>
+  <jobString>Curing bad back.</jobString>
+  <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>80</count>
+      </li>
+    </ingredients>
+  <fixedIngredientFilter>
+    <categories>
+      <li>Medicine</li>
+    </categories>
+      <exceptedThingDefs>
+        <li>HerbalMedicine</li>
+      </exceptedThingDefs>
+      <thingDefs>
+        <li>Plasteel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  <removesHediff>BadBack</removesHediff>
+</RecipeDef>
+
+    <!-- Chronic: Frail -->
+<RecipeDef ParentName="SurgeryVeryHard">
+  <defName>CureChronicFrail</defName>
+  <label>cure frail (120 plasteel/3 med - no herb/)</label>
+  <description>Cure frail.</description>
+  <workerClass>Recipe_RemoveHediff</workerClass>
+  <successfullyRemovedHediffMessage>{0} has successfully treated {1}'s frailty.</successfullyRemovedHediffMessage>
+  <jobString>Curing frail.</jobString>
+  <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>120</count>
+      </li>
+    </ingredients>
+  <fixedIngredientFilter>
+    <categories>
+      <li>Medicine</li>
+    </categories>
+    <exceptedThingDefs>
+      <li>HerbalMedicine</li>
+    </exceptedThingDefs>
+    <thingDefs>
+      <li>Plasteel</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+  <removesHediff>Frail</removesHediff>
 </RecipeDef>
 
 
