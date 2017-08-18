@@ -1,15 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <RecipeDefs>
 
-  <RecipeDef Abstract="True" Name="SurgeryFlesh">
-    <effectWorking>Surgery</effectWorking>
-    <soundWorking>Recipe_Surgery</soundWorking>
-    <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
-    <workSkill>Medicine</workSkill>
-    <workSkillLearnFactor>16</workSkillLearnFactor>
-  </RecipeDef>
-
 <!-- Define 4 different difficulties -->
+
   <RecipeDef Name="SurgeryEasy" ParentName="SurgeryFlesh" Abstract="True">
           <!-- Easy recipe the skill of the colonist and quality/cleanliness of the room should not matters that much -->
   <surgerySuccessChanceFactor>1.1</surgerySuccessChanceFactor>
@@ -26,56 +19,56 @@
   </skillRequirements>
   </RecipeDef>
 
-<RecipeDef Name="SurgeryNormal" ParentName="SurgeryFlesh" Abstract="True">
-          <!-- The skill of the colonist and quality/cleanliness of the room should matters a bit -->
-  <surgerySuccessChanceFactor>0.95</surgerySuccessChanceFactor>
-  <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
-  <workAmount>3000</workAmount>
-  <recipeUsers>
-    <li>Human</li>
-  </recipeUsers>
-  <skillRequirements>
-    <li>
-      <skill>Medicine</skill>
-      <minLevel>8</minLevel>
-    </li>
-  </skillRequirements>
-</RecipeDef>
+  <RecipeDef Name="SurgeryNormal" ParentName="SurgeryFlesh" Abstract="True">
+            <!-- The skill of the colonist and quality/cleanliness of the room should matters a bit -->
+    <surgerySuccessChanceFactor>0.95</surgerySuccessChanceFactor>
+    <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+    <workAmount>3000</workAmount>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <skillRequirements>
+      <li>
+        <skill>Medicine</skill>
+        <minLevel>8</minLevel>
+      </li>
+    </skillRequirements>
+  </RecipeDef>
 
-<RecipeDef Name="SurgeryHard" ParentName="SurgeryFlesh" Abstract="True">
-          <!-- The skill of the colonist and quality/cleanliness of the room should matters -->
-  <surgerySuccessChanceFactor>0.85</surgerySuccessChanceFactor>
-  <deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
-  <workAmount>4500</workAmount>
-  <recipeUsers>
-    <li>Human</li>
-  </recipeUsers>
-  <skillRequirements>
-    <li>
-      <skill>Medicine</skill>
-      <minLevel>10</minLevel>
-    </li>
-  </skillRequirements>
-</RecipeDef>
+  <RecipeDef Name="SurgeryHard" ParentName="SurgeryFlesh" Abstract="True">
+            <!-- The skill of the colonist and quality/cleanliness of the room should matters -->
+    <surgerySuccessChanceFactor>0.85</surgerySuccessChanceFactor>
+    <deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
+    <workAmount>4500</workAmount>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <skillRequirements>
+      <li>
+        <skill>Medicine</skill>
+        <minLevel>10</minLevel>
+      </li>
+    </skillRequirements>
+  </RecipeDef>
 
-<RecipeDef Name="SurgeryVeryHard" ParentName="SurgeryFlesh" Abstract="True">
-          <!-- The skill of the colonist and quality/cleanliness of the room should matters a lot -->
-  <surgerySuccessChanceFactor>0.7</surgerySuccessChanceFactor>
-  <deathOnFailedSurgeryChance>0.2</deathOnFailedSurgeryChance>
-  <workAmount>6000</workAmount>
-  <recipeUsers>
-    <li>Human</li>
-  </recipeUsers>
-  <skillRequirements>
-    <li>
-      <skill>Medicine</skill>
-      <minLevel>15</minLevel>
-    </li>
-  </skillRequirements>
-</RecipeDef>
+  <RecipeDef Name="SurgeryVeryHard" ParentName="SurgeryFlesh" Abstract="True">
+            <!-- The skill of the colonist and quality/cleanliness of the room should matters a lot -->
+    <surgerySuccessChanceFactor>0.7</surgerySuccessChanceFactor>
+    <deathOnFailedSurgeryChance>0.2</deathOnFailedSurgeryChance>
+    <workAmount>6000</workAmount>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+    <skillRequirements>
+      <li>
+        <skill>Medicine</skill>
+        <minLevel>15</minLevel>
+      </li>
+    </skillRequirements>
+  </RecipeDef>
 
 
-                <!-- Easy Surgery -->
+<!-- Easy Surgery -->
     <!-- Injury: Burn -->
 <RecipeDef ParentName="SurgeryEasy">
   <defName>CureInjuryBurn</defName>
@@ -835,6 +828,7 @@
   </appliedOnFixedBodyParts>
 </RecipeDef>
 
+<!-- Bone/limb: Radius -->
 <RecipeDef ParentName="SurgeryHard">
   <defName>RepairBonesRadius</defName>
   <label>repair radius (10 plasteel/2 med - no herb/)</label>
@@ -876,6 +870,7 @@
   </appliedOnFixedBodyParts>
 </RecipeDef>
 
+<!-- Bone/limb: Humerus -->
 <RecipeDef ParentName="SurgeryHard">
   <defName>RepairBonesHumerus</defName>
   <label>repair humerus (10 plasteel/2 med - no herb/)</label>
@@ -917,6 +912,7 @@
   </appliedOnFixedBodyParts>
 </RecipeDef>
 
+<!-- Bone/limb: Femur -->
 <RecipeDef ParentName="SurgeryHard">
   <defName>RepairBonesFemur</defName>
   <label>repair femur (10 plasteel/2 med - no herb/)</label>
@@ -958,6 +954,7 @@
   </appliedOnFixedBodyParts>
 </RecipeDef>
 
+<!-- Bone/limb: Tibia -->
 <RecipeDef ParentName="SurgeryHard">
   <defName>RepairBonesTibia</defName>
   <label>repair tibia (10 plasteel/2 med - no herb/)</label>
@@ -998,10 +995,11 @@
     <li>RightTibia</li>
   </appliedOnFixedBodyParts>
 </RecipeDef>
+
     <!-- Chronic: Badback -->
 <RecipeDef ParentName="SurgeryHard">
   <defName>CureChronicBadBack</defName>
-  <label>cure bad back (30 plasteel/3 med - no herb)</label>
+  <label>cure/repair bad back (30 plasteel/3 med - no herb)</label>
   <description>Cure bad back.</description>
   <workerClass>Recipe_RemoveHediff</workerClass>
   <successfullyRemovedHediffMessage>{0} has successfully treated {1}'s bad back.</successfullyRemovedHediffMessage>
