@@ -1164,6 +1164,34 @@
   <removesHediff>GutWorms</removesHediff>
 </RecipeDef>
 
+    <!-- Chronic: HeartArteryBlockage -->
+<RecipeDef ParentName="SurgeryHard">
+  <defName>CureChronicHeartArteryBlockage</defName>
+  <label>cure artery blockage (5 Med - no herb)</label>
+  <description>Cure artery blockage.</description>
+  <workerClass>Recipe_RemoveHediff</workerClass>
+  <successfullyRemovedHediffMessage>{0} has successfully treated {1}'s artery blockage.</successfullyRemovedHediffMessage>
+  <jobString>Curing artery blockage.</jobString>
+  <ingredients>
+    <li>
+      <filter>
+        <categories>
+          <li>Medicine</li>
+        </categories>
+      </filter>
+      <count>3</count>
+    </li>
+  </ingredients>
+  <fixedIngredientFilter>
+    <categories>
+      <li>Medicine</li>
+    </categories>
+    <exceptedThingDefs>
+      <li>HerbalMedicine</li>
+    </exceptedThingDefs>
+  </fixedIngredientFilter>
+  <removesHediff>HeartArteryBlockage</removesHediff>
+</RecipeDef>
 
               <!-- Very Hard Surgery -->
     <!-- Chronic: Dementia -->
@@ -1226,35 +1254,6 @@
   <removesHediff>Alzheimers</removesHediff>
 </RecipeDef>
 
-    <!-- Chronic: HeartArteryBlockage -->
-<RecipeDef ParentName="SurgeryVeryHard">
-  <defName>CureChronicHeartArteryBlockage</defName>
-  <label>cure artery blockage (3 Glit. Med)</label>
-  <description>Cure artery blockage.</description>
-  <workerClass>Recipe_RemoveHediff</workerClass>
-  <successfullyRemovedHediffMessage>{0} has successfully treated {1}'s artery blockage.</successfullyRemovedHediffMessage>
-  <jobString>Curing artery blockage.</jobString>
-  <ingredients>
-    <li>
-      <filter>
-        <categories>
-          <li>Medicine</li>
-        </categories>
-      </filter>
-      <count>3</count>
-    </li>
-  </ingredients>
-  <fixedIngredientFilter>
-    <categories>
-      <li>Medicine</li>
-    </categories>
-    <exceptedThingDefs>
-      <li>HerbalMedicine</li>
-      <li>Medicine</li>
-    </exceptedThingDefs>
-  </fixedIngredientFilter>
-  <removesHediff>HeartArteryBlockage</removesHediff>
-</RecipeDef>
 
 
 </RecipeDefs>
