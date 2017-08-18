@@ -835,6 +835,169 @@
   </appliedOnFixedBodyParts>
 </RecipeDef>
 
+<RecipeDef ParentName="SurgeryHard">
+  <defName>RepairBonesRadius</defName>
+  <label>repair radius (10 plasteel/2 med - no herb/)</label>
+  <description>Repair radius</description>
+  <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+  <jobString>Repairing radius</jobString>
+  <ingredients>
+    <li>
+      <filter>
+        <categories>
+          <li>Medicine</li>
+        </categories>
+      </filter>
+      <count>2</count>
+    </li>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>Plasteel</li>
+        </thingDefs>
+      </filter>
+      <count>10</count>
+    </li>
+  </ingredients>
+  <fixedIngredientFilter>
+    <categories>
+      <li>Medicine</li>
+    </categories>
+    <exceptedThingDefs>
+      <li>HerbalMedicine</li>
+    </exceptedThingDefs>
+    <thingDefs>
+      <li>Plasteel</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+  <appliedOnFixedBodyParts>
+    <li>LeftRadius</li>
+    <li>RightRadius</li>
+  </appliedOnFixedBodyParts>
+</RecipeDef>
+
+<RecipeDef ParentName="SurgeryHard">
+  <defName>RepairBonesHumerus</defName>
+  <label>repair humerus (10 plasteel/2 med - no herb/)</label>
+  <description>Repair humerus</description>
+  <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+  <jobString>Repairing humerus</jobString>
+  <ingredients>
+    <li>
+      <filter>
+        <categories>
+          <li>Medicine</li>
+        </categories>
+      </filter>
+      <count>2</count>
+    </li>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>Plasteel</li>
+        </thingDefs>
+      </filter>
+      <count>10</count>
+    </li>
+  </ingredients>
+  <fixedIngredientFilter>
+    <categories>
+      <li>Medicine</li>
+    </categories>
+    <exceptedThingDefs>
+      <li>HerbalMedicine</li>
+    </exceptedThingDefs>
+    <thingDefs>
+      <li>Plasteel</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+  <appliedOnFixedBodyParts>
+    <li>LeftHumerus</li>
+    <li>RightHumerus</li>
+  </appliedOnFixedBodyParts>
+</RecipeDef>
+
+<RecipeDef ParentName="SurgeryHard">
+  <defName>RepairBonesFemur</defName>
+  <label>repair femur (10 plasteel/2 med - no herb/)</label>
+  <description>Repair femur</description>
+  <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+  <jobString>Repairing femur</jobString>
+  <ingredients>
+    <li>
+      <filter>
+        <categories>
+          <li>Medicine</li>
+        </categories>
+      </filter>
+      <count>2</count>
+    </li>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>Plasteel</li>
+        </thingDefs>
+      </filter>
+      <count>10</count>
+    </li>
+  </ingredients>
+  <fixedIngredientFilter>
+    <categories>
+      <li>Medicine</li>
+    </categories>
+    <exceptedThingDefs>
+      <li>HerbalMedicine</li>
+    </exceptedThingDefs>
+    <thingDefs>
+      <li>Plasteel</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+  <appliedOnFixedBodyParts>
+    <li>LeftFemur</li>
+    <li>RightFemur</li>
+  </appliedOnFixedBodyParts>
+</RecipeDef>
+
+<RecipeDef ParentName="SurgeryHard">
+  <defName>RepairBonesTibia</defName>
+  <label>repair tibia (10 plasteel/2 med - no herb/)</label>
+  <description>Repair tibia</description>
+  <workerClass>Recipe_InstallNaturalBodyPart</workerClass>
+  <jobString>Repairing tibia</jobString>
+  <ingredients>
+    <li>
+      <filter>
+        <categories>
+          <li>Medicine</li>
+        </categories>
+      </filter>
+      <count>2</count>
+    </li>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>Plasteel</li>
+        </thingDefs>
+      </filter>
+      <count>10</count>
+    </li>
+  </ingredients>
+  <fixedIngredientFilter>
+    <categories>
+      <li>Medicine</li>
+    </categories>
+    <exceptedThingDefs>
+      <li>HerbalMedicine</li>
+    </exceptedThingDefs>
+    <thingDefs>
+      <li>Plasteel</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+  <appliedOnFixedBodyParts>
+    <li>LeftTibia</li>
+    <li>RightTibia</li>
+  </appliedOnFixedBodyParts>
+</RecipeDef>
     <!-- Chronic: Badback -->
 <RecipeDef ParentName="SurgeryHard">
   <defName>CureChronicBadBack</defName>
