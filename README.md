@@ -33,7 +33,7 @@ The more the surgery difficulty increase, the more the Quality/Cleanliness of th
 
 ## Hard surgeries:
 *You can try to heal Muscle Parasites and Gut Worms in one operation (instead of waiting for the 5 treatments in Vanilla) but it will cost you 5 units of medicine in one time. Also be aware of the risk of lethal failures (if the operation fail then there is a 10% chance of killing the patient)*
-* Asthma, Cataract, Bad back, Frail, Rib cage, Spine, Pelvis, Sternum, Muscle Parasites and Gut Worms.
+* Asthma, Heart artery blockage, Cataract, Rib cage, Sternum, Muscle Parasites and Gut Worms.
 * Work: 4,500.
 * Requires 3 units of medicine (Healroots cannot be used).
 * _Requires level 10 medicine._
@@ -43,7 +43,7 @@ The more the surgery difficulty increase, the more the Quality/Cleanliness of th
 * Muscle Parasites and Gut Worms treatment requires __5 units of medicine__
 
 ## Very hard surgeries:
-* Dementia, Alzheimers and Heart artery blockage.
+* Dementia, Alzheimers, Bad back curing, Frail curing, Pelvis surgery and Spine surgery.
 * Work: 6,000.
 * Requires 3 units of Glitterworld Medicine (Healroots and standard medecine cannot be used).
 * _Requires level 15 medicine._
