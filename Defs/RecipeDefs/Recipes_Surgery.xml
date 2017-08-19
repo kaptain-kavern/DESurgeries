@@ -1259,6 +1259,35 @@
   <removesHediff>Frail</removesHediff>
 </RecipeDef>
 
+    <!-- Cure Cirrhosis -->
+<RecipeDef ParentName="SurgeryVeryHard">
+  <defName>CureCirrhosis</defName>
+  <label>cure cirrhosis (5 Med - no herb)</label>
+  <description>Cure cirrhosis.</description>
+  <workerClass>Recipe_RemoveHediff</workerClass>
+  <successfullyRemovedHediffMessage>{0} has successfully treated {1}'s cirrhosis.</successfullyRemovedHediffMessage>
+  <jobString>Curing cirrhosis.</jobString>
+  <ingredients>
+    <li>
+      <filter>
+        <categories>
+          <li>Medicine</li>
+        </categories>
+      </filter>
+      <count>3</count>
+    </li>
+  </ingredients>
+  <fixedIngredientFilter>
+    <categories>
+      <li>Medicine</li>
+    </categories>
+    <exceptedThingDefs>
+      <li>HerbalMedicine</li>
+    </exceptedThingDefs>
+  </fixedIngredientFilter>
+  <removesHediff>cirrhosis</removesHediff>
+</RecipeDef>
+
 
 
 </RecipeDefs>
