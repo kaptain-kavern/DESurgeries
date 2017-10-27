@@ -1,4 +1,4 @@
-[![Version](https://img.shields.io/badge/Rimworld-A17-red.svg)](http://rimworldgame.com/)
+[![Version](https://img.shields.io/badge/Rimworld-A18-red.svg)](http://rimworldgame.com/)
 # DESurgeries
 DESurgeries (originally by [DarknessEyes](https://ludeon.com/forums/index.php?topic=18976.0))  taken from [Aristocat's Medical Complication Mod Pack](https://ludeon.com/forums/index.php?topic=20708.0)
 
@@ -12,7 +12,6 @@ DESurgeries (originally by [DarknessEyes](https://ludeon.com/forums/index.php?to
 ____________________________
 **<======================[[DOWNLOAD](https://github.com/kaptain-kavern/DESurgeries/releases/latest)]======================>**
 ____________________________
-This mod is __fully compatible__ with [EPOE](https://ludeon.com/forums/index.php?topic=10571.msg104518#msg104518).
 
 # Description :
 The more the surgery difficulty increase, the more the Quality/Cleanliness of the hospital bed/room and the Medicine skill value will impact chances of success
