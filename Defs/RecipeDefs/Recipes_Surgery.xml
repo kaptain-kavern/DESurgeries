@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<RecipeDefs>
+<Defs>
+
 <!-- Define which races are available for the added surgeries -->
   <RecipeDef Name="DESurgeries" ParentName="SurgeryFlesh" Abstract="True">
     <recipeUsers>
@@ -17,10 +18,7 @@
   <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
   <workAmount>2000</workAmount>
   <skillRequirements>
-    <li>
-      <skill>Medicine</skill>
-      <minLevel>5</minLevel>
-    </li>
+    <Medicine>5</Medicine>
   </skillRequirements>
   </RecipeDef>
 
@@ -30,10 +28,7 @@
     <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
     <workAmount>3000</workAmount>
     <skillRequirements>
-      <li>
-        <skill>Medicine</skill>
-        <minLevel>8</minLevel>
-      </li>
+      <Medicine>8</Medicine>
     </skillRequirements>
   </RecipeDef>
 
@@ -43,10 +38,7 @@
     <deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
     <workAmount>4500</workAmount>
     <skillRequirements>
-      <li>
-        <skill>Medicine</skill>
-        <minLevel>10</minLevel>
-      </li>
+      <Medicine>10</Medicine>
     </skillRequirements>
   </RecipeDef>
 
@@ -56,10 +48,7 @@
     <deathOnFailedSurgeryChance>0.2</deathOnFailedSurgeryChance>
     <workAmount>6000</workAmount>
     <skillRequirements>
-      <li>
-        <skill>Medicine</skill>
-        <minLevel>15</minLevel>
-      </li>
+      <Medicine>15</Medicine>
     </skillRequirements>
   </RecipeDef>
 
@@ -1281,9 +1270,6 @@
       <li>HerbalMedicine</li>
     </exceptedThingDefs>
   </fixedIngredientFilter>
-  <removesHediff>cirrhosis</removesHediff>
+  <removesHediff>Cirrhosis</removesHediff>
 </RecipeDef>
-
-
-
-</RecipeDefs>
+</Defs>

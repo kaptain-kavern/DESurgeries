@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 	<Operation Class="PatchOperationInsert">
-		<xpath>/IncidentDefs/IncidentDef[defName = "Disease_MuscleParasites"]/diseaseVictimFractionRange</xpath>
+		<xpath>/Defs/IncidentDef[defName = "Disease_MuscleParasites"]/diseaseVictimFractionRange</xpath>
 		<value>
 		    <diseasePartsToAffect>
 		      <li>Torso</li>
