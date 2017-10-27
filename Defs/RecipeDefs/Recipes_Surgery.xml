@@ -1,16 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <RecipeDefs>
+<!-- Define which races are available for the added surgeries -->
+  <RecipeDef Name="DESurgeries" ParentName="SurgeryFlesh" Abstract="True">
+    <recipeUsers>
+      <li>Human</li>
+      <!-- Insert modded races here via xpath. Do not forget the li tags -->
+    </recipeUsers>
+  </RecipeDef>
+
 
 <!-- Define 4 different difficulties -->
 
-  <RecipeDef Name="SurgeryEasy" ParentName="SurgeryFlesh" Abstract="True">
+  <RecipeDef Name="SurgeryEasy" ParentName="DESurgeries" Abstract="True">
           <!-- Easy recipe the skill of the colonist and quality/cleanliness of the room should not matters that much -->
   <surgerySuccessChanceFactor>1.1</surgerySuccessChanceFactor>
   <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
   <workAmount>2000</workAmount>
-  <recipeUsers>
-    <li>Human</li>
-  </recipeUsers>
   <skillRequirements>
     <li>
       <skill>Medicine</skill>
@@ -19,14 +24,11 @@
   </skillRequirements>
   </RecipeDef>
 
-  <RecipeDef Name="SurgeryNormal" ParentName="SurgeryFlesh" Abstract="True">
+  <RecipeDef Name="SurgeryNormal" ParentName="DESurgeries" Abstract="True">
             <!-- The skill of the colonist and quality/cleanliness of the room should matters a bit -->
     <surgerySuccessChanceFactor>0.95</surgerySuccessChanceFactor>
     <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
     <workAmount>3000</workAmount>
-    <recipeUsers>
-      <li>Human</li>
-    </recipeUsers>
     <skillRequirements>
       <li>
         <skill>Medicine</skill>
@@ -35,14 +37,11 @@
     </skillRequirements>
   </RecipeDef>
 
-  <RecipeDef Name="SurgeryHard" ParentName="SurgeryFlesh" Abstract="True">
+  <RecipeDef Name="SurgeryHard" ParentName="DESurgeries" Abstract="True">
             <!-- The skill of the colonist and quality/cleanliness of the room should matters -->
     <surgerySuccessChanceFactor>0.85</surgerySuccessChanceFactor>
     <deathOnFailedSurgeryChance>0.1</deathOnFailedSurgeryChance>
     <workAmount>4500</workAmount>
-    <recipeUsers>
-      <li>Human</li>
-    </recipeUsers>
     <skillRequirements>
       <li>
         <skill>Medicine</skill>
@@ -51,14 +50,11 @@
     </skillRequirements>
   </RecipeDef>
 
-  <RecipeDef Name="SurgeryVeryHard" ParentName="SurgeryFlesh" Abstract="True">
+  <RecipeDef Name="SurgeryVeryHard" ParentName="DESurgeries" Abstract="True">
             <!-- The skill of the colonist and quality/cleanliness of the room should matters a lot -->
     <surgerySuccessChanceFactor>0.7</surgerySuccessChanceFactor>
     <deathOnFailedSurgeryChance>0.2</deathOnFailedSurgeryChance>
     <workAmount>6000</workAmount>
-    <recipeUsers>
-      <li>Human</li>
-    </recipeUsers>
     <skillRequirements>
       <li>
         <skill>Medicine</skill>
