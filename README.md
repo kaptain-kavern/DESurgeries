@@ -52,3 +52,5 @@ ______________________
 
 Thanks to our Translators !
 - RU : by Man232 and Desert Rain
+- ZH : by tlerbao
+- FR : By Jozay
