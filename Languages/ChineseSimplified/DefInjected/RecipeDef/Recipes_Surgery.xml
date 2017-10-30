@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Injury: Burn -->
+
+  <CureInjuryBurn.label>治疗烧伤 (基本药物x2)</CureInjuryBurn.label>
+  <CureInjuryBurn.description>治疗烧伤。</CureInjuryBurn.description>
+  <CureInjuryBurn.jobString>正在治疗烧伤。</CureInjuryBurn.jobString>
+  <CureInjuryBurn.successfullyRemovedHediffMessage>{0}已成功治愈{1}的烧伤。</CureInjuryBurn.successfullyRemovedHediffMessage>
+
+
+  <!-- Injury: Crush -->
+
+  <CureInjuryCrush.label>治疗压伤 (基本药物x2)</CureInjuryCrush.label>
+  <CureInjuryCrush.description>治疗压伤。</CureInjuryCrush.description>
+  <CureInjuryCrush.jobString>正在治疗压伤。</CureInjuryCrush.jobString>
+  <CureInjuryCrush.successfullyRemovedHediffMessage>{0}已成功治愈{1}的压伤。</CureInjuryCrush.successfullyRemovedHediffMessage>
+
+
+  <!-- Injury: Crack -->
+
+  <CureInjuryCrack.label>治疗破裂 (基本药物x2)</CureInjuryCrack.label>
+  <CureInjuryCrack.description>治疗破裂。</CureInjuryCrack.description>
+  <CureInjuryCrack.jobString>正在治疗破裂。</CureInjuryCrack.jobString>
+  <CureInjuryCrack.successfullyRemovedHediffMessage>{0}已成功治愈{1}的破裂。</CureInjuryCrack.successfullyRemovedHediffMessage>
+
+
+  <!-- Injury: Cut -->
+
+  <CureInjuryCut.label>治疗割伤 (基本药物x2)</CureInjuryCut.label>
+  <CureInjuryCut.description>治疗割伤。</CureInjuryCut.description>
+  <CureInjuryCut.jobString>正在治疗割伤。</CureInjuryCut.jobString>
+  <CureInjuryCut.successfullyRemovedHediffMessage>{0}已成功治愈{1}的割伤。</CureInjuryCut.successfullyRemovedHediffMessage>
+
+
+  <!-- Injury: SurgicalCut -->
+
+  <CureInjurySurgicalCut.label>治疗手术伤 (基本药物x2)</CureInjurySurgicalCut.label>
+  <CureInjurySurgicalCut.description>治疗手术伤。</CureInjurySurgicalCut.description>
+  <CureInjurySurgicalCut.jobString>正在治疗手术伤。</CureInjurySurgicalCut.jobString>
+  <CureInjurySurgicalCut.successfullyRemovedHediffMessage>{0}已成功治愈{1}的手术伤。</CureInjurySurgicalCut.successfullyRemovedHediffMessage>
+
+
+  <!-- Injury: Scratch -->
+
+  <CureInjuryScratch.label>治疗抓伤 (基本药物x2)</CureInjuryScratch.label>
+  <CureInjuryScratch.description>治疗抓伤。</CureInjuryScratch.description>
+  <CureInjuryScratch.jobString>正在治疗抓伤。</CureInjuryScratch.jobString>
+  <CureInjuryScratch.successfullyRemovedHediffMessage>{0}已成功治愈{1}的抓伤。</CureInjuryScratch.successfullyRemovedHediffMessage>
+
+
+  <!-- Injury: Bite -->
+
+  <CureInjuryBite.label>治疗咬伤 (基本药物x2)</CureInjuryBite.label>
+  <CureInjuryBite.description>治疗咬伤。</CureInjuryBite.description>
+  <CureInjuryBite.jobString>正在治疗咬伤。</CureInjuryBite.jobString>
+  <CureInjuryBite.successfullyRemovedHediffMessage>{0}已成功治愈{1}的咬伤。</CureInjuryBite.successfullyRemovedHediffMessage>
+
+
+  <!-- Injury: Stab -->
+
+  <CureInjuryStab.label>治疗刺伤 (基本药物x2)</CureInjuryStab.label>
+  <CureInjuryStab.description>治疗刺伤。</CureInjuryStab.description>
+  <CureInjuryStab.jobString>正在治疗刺伤。</CureInjuryStab.jobString>
+  <CureInjuryStab.successfullyRemovedHediffMessage>{0}已成功治愈{1}的刺伤。</CureInjuryStab.successfullyRemovedHediffMessage>
+
+
+  <!-- Injury: Gunshot -->
+
+  <CureInjuryGunshot.label>治疗枪伤 (基本药物x2)</CureInjuryGunshot.label>
+  <CureInjuryGunshot.description>治疗枪伤。</CureInjuryGunshot.description>
+  <CureInjuryGunshot.jobString>正在治疗枪伤。</CureInjuryGunshot.jobString>
+  <CureInjuryGunshot.successfullyRemovedHediffMessage>{0}已成功治愈{1}的枪伤。</CureInjuryGunshot.successfullyRemovedHediffMessage>
+
+
+  <!-- Injury: Shredded -->
+
+  <CureInjuryShredded.label>治疗炸伤 (基本药物x2)</CureInjuryShredded.label>
+  <CureInjuryShredded.description>治疗炸伤。</CureInjuryShredded.description>
+  <CureInjuryShredded.jobString>正在治疗炸伤。</CureInjuryShredded.jobString>
+  <CureInjuryShredded.successfullyRemovedHediffMessage>{0}已成功治愈{1}的炸伤。</CureInjuryShredded.successfullyRemovedHediffMessage>
+
+
+  <!-- Injury: Bruise -->
+
+  <CureInjuryBruise.label>治疗瘀伤 (基本药物x2)</CureInjuryBruise.label>
+  <CureInjuryBruise.description>治疗瘀伤。</CureInjuryBruise.description>
+  <CureInjuryBruise.jobString>正在治疗瘀伤。</CureInjuryBruise.jobString>
+  <CureInjuryBruise.successfullyRemovedHediffMessage>{0}已成功治愈{1}的瘀伤。</CureInjuryBruise.successfullyRemovedHediffMessage>
+
+
+  <!-- Injury: Frostbite -->
+
+  <CureInjuryFrostbite.label>治疗冻伤 (基本药物x2)</CureInjuryFrostbite.label>
+  <CureInjuryFrostbite.description>治疗冻伤。</CureInjuryFrostbite.description>
+  <CureInjuryFrostbite.jobString>正在治疗冻伤。</CureInjuryFrostbite.jobString>
+  <CureInjuryFrostbite.successfullyRemovedHediffMessage>{0}已成功治愈{1}的冻伤。</CureInjuryFrostbite.successfullyRemovedHediffMessage>
+
+
+  <!-- Bone/limb: Mandible -->
+
+  <RepairBonesMandible.label>修复下巴 (玻璃钢x10/普通药物x2)</RepairBonesMandible.label>
+  <RepairBonesMandible.description>修复下巴。</RepairBonesMandible.description>
+  <RepairBonesMandible.jobString>正在修复下巴。</RepairBonesMandible.jobString>
+
+
+  <!-- Bone/limb: clavicle -->
+
+  <RepairBonesClavicle.label>修复锁骨 (玻璃钢x10/普通药物x2)</RepairBonesClavicle.label>
+  <RepairBonesClavicle.description>修复锁骨。</RepairBonesClavicle.description>
+  <RepairBonesClavicle.jobString>正在修复锁骨。</RepairBonesClavicle.jobString>
+
+
+  <!-- Bone/limb finger -->
+
+  <RepairFinger.label>修复手指 (普通药物x2)</RepairFinger.label>
+  <RepairFinger.description>修复手指。</RepairFinger.description>
+  <RepairFinger.jobString>正在修复手指。</RepairFinger.jobString>
+
+
+  <!-- Bone/limb toe -->
+
+  <RepairToe.label>修复脚趾 (普通药物x2)</RepairToe.label>
+  <RepairToe.description>修复脚趾 。</RepairToe.description>
+  <RepairToe.jobString>正在修复脚趾 。</RepairToe.jobString>
+
+
+  <!-- Chronic: HearingLoss -->
+
+  <CureChronicHearingLoss.label>治疗耳聋 (普通药物x2)</CureChronicHearingLoss.label>
+  <CureChronicHearingLoss.description>治疗耳聋。</CureChronicHearingLoss.description>
+  <CureChronicHearingLoss.jobString>正在治疗耳聋。</CureChronicHearingLoss.jobString>
+  <CureChronicHearingLoss.successfullyRemovedHediffMessage>{0}已成功治愈{1}的耳聋。</CureChronicHearingLoss.successfullyRemovedHediffMessage>
+
+
+  <!-- Cosmetic: Ear -->
+
+  <RepairCosmeticEar.label>修复耳朵 (普通药物x2)</RepairCosmeticEar.label>
+  <RepairCosmeticEar.description>修复耳朵。 (整形手术)</RepairCosmeticEar.description>
+  <RepairCosmeticEar.jobString>正在修复耳朵</RepairCosmeticEar.jobString>
+
+
+  <!-- Cosmetic: Nose -->
+
+  <RepairCosmeticNose.label>修复鼻子 (普通药物x2)</RepairCosmeticNose.label>
+  <RepairCosmeticNose.description>修复鼻子。 (整形手术)</RepairCosmeticNose.description>
+  <RepairCosmeticNose.jobString>正在修复鼻子。</RepairCosmeticNose.jobString>
+
+
+  <!-- Chronic: Cataract -->
+
+  <CureChronicCataract.label>治疗白内障 (普通药物x3)</CureChronicCataract.label>
+  <CureChronicCataract.description>治疗白内障。</CureChronicCataract.description>
+  <CureChronicCataract.jobString>正在治疗白内障。</CureChronicCataract.jobString>
+  <CureChronicCataract.successfullyRemovedHediffMessage>{0}已成功治愈{1}的白内障。</CureChronicCataract.successfullyRemovedHediffMessage>
+
+
+  <!-- Bones: Spine -->
+
+  <RepairBoneSpine.label>修复脊椎 (玻璃钢x3/普通药物x3)</RepairBoneSpine.label>
+  <RepairBoneSpine.description>修复脊椎。</RepairBoneSpine.description>
+  <RepairBoneSpine.jobString>正在修复脊椎。</RepairBoneSpine.jobString>
+
+
+  <!-- Bones: RibCage -->
+
+  <RepairBonesRibCage.label>修复肋骨。 (玻璃钢x24/普通药物x3)</RepairBonesRibCage.label>
+  <RepairBonesRibCage.description>修复肋骨。</RepairBonesRibCage.description>
+  <RepairBonesRibCage.jobString>正在修复肋骨。</RepairBonesRibCage.jobString>
+
+
+  <!-- Bones: Pelvis -->
+
+  <RepairBonesPelvis.label>修复盆骨 (玻璃钢x24/普通药物x3)</RepairBonesPelvis.label>
+  <RepairBonesPelvis.description>修复盆骨。</RepairBonesPelvis.description>
+  <RepairBonesPelvis.jobString>正在修复盆骨。</RepairBonesPelvis.jobString>
+
+
+  <!-- Bone/limb: Sternum -->
+
+  <RepairBonesSternum.label>修复胸骨 (玻璃钢x24/普通药物x3)</RepairBonesSternum.label>
+  <RepairBonesSternum.description>修复胸骨。</RepairBonesSternum.description>
+  <RepairBonesSternum.jobString>正在修复胸骨。</RepairBonesSternum.jobString>
+
+
+  <!-- Chronic: Badback -->
+
+  <CureChronicBadBack.label>治疗背痛 (玻璃钢x30/普通药物x3)</CureChronicBadBack.label>
+  <CureChronicBadBack.description>治疗背痛。</CureChronicBadBack.description>
+  <CureChronicBadBack.jobString>正在治疗背痛。</CureChronicBadBack.jobString>
+  <CureChronicBadBack.successfullyRemovedHediffMessage>{0}已成功治愈{1}的白内障。</CureChronicBadBack.successfullyRemovedHediffMessage>
+
+
+  <!-- Chronic: Frail -->
+
+  <CureChronicFrail.label>治疗体弱 (玻璃钢x24/普通药物x3)</CureChronicFrail.label>
+  <CureChronicFrail.description>治疗体弱。</CureChronicFrail.description>
+  <CureChronicFrail.jobString>正在治疗体弱。</CureChronicFrail.jobString>
+  <CureChronicFrail.successfullyRemovedHediffMessage>{0}已成功治愈{1}的体弱。</CureChronicFrail.successfullyRemovedHediffMessage>
+
+
+  <!-- Chronic: Asthma -->
+
+  <CureChronicAsthma.label>治疗哮喘 (普通药物x3)</CureChronicAsthma.label>
+  <CureChronicAsthma.description>治疗哮喘。</CureChronicAsthma.description>
+  <CureChronicAsthma.jobString>正在治疗哮喘。</CureChronicAsthma.jobString>
+  <CureChronicAsthma.successfullyRemovedHediffMessage>{0}已成功治愈{1}的哮喘。</CureChronicAsthma.successfullyRemovedHediffMessage>
+
+
+  <!-- Cure Muscle Parasites -->
+
+  <CureMuscleParasites.label>治疗肌肉寄生虫 (普通药物x5)</CureMuscleParasites.label>
+  <CureMuscleParasites.description>能够治疗肌肉寄生虫，但是风险很大，手术成功恢复很快。</CureMuscleParasites.description>
+  <CureMuscleParasites.jobString>正在治疗肌肉虫。</CureMuscleParasites.jobString>
+  <CureMuscleParasites.successfullyRemovedHediffMessage>{0}已成功治愈{1}的白内障。</CureMuscleParasites.successfullyRemovedHediffMessage>
+
+
+  <!-- Cure Gut Worms -->
+
+  <CureGutWorms.label>治疗肠道蠕虫 (普通药物x5)</CureGutWorms.label>
+  <CureGutWorms.description>能够治疗肠道蠕虫，但是风险很大，手术成功恢复很快。</CureGutWorms.description>
+  <CureGutWorms.jobString>正在治疗肠道蠕虫。</CureGutWorms.jobString>
+  <CureGutWorms.successfullyRemovedHediffMessage>{0}已成功治愈{1}的肠道蠕虫。</CureGutWorms.successfullyRemovedHediffMessage>
+
+
+  <!-- Chronic: Dementia -->
+
+  <CureChronicDementia.label>治疗痴呆 (高级药物x3)</CureChronicDementia.label>
+  <CureChronicDementia.description>治疗痴呆。</CureChronicDementia.description>
+  <CureChronicDementia.jobString>正在治疗痴呆。</CureChronicDementia.jobString>
+  <CureChronicDementia.successfullyRemovedHediffMessage>{0}已成功治愈{1}的痴呆。</CureChronicDementia.successfullyRemovedHediffMessage>
+
+
+  <!-- Chronic: Alzheimers -->
+
+  <CureChronicAlzheimers.label>治疗阿尔茨海默病 (高级药物x3)</CureChronicAlzheimers.label>
+  <CureChronicAlzheimers.description>治疗阿尔茨海默病。</CureChronicAlzheimers.description>
+  <CureChronicAlzheimers.jobString>正在治疗阿尔茨海默病。</CureChronicAlzheimers.jobString>
+  <CureChronicAlzheimers.successfullyRemovedHediffMessage>{0}已成功治愈{1}的阿尔茨海默病。</CureChronicAlzheimers.successfullyRemovedHediffMessage>
+
+
+  <!-- Chronic: HeartArteryBlockage -->
+
+  <CureChronicHeartArteryBlockage.label>治疗动脉阻塞 (高级药物x3)</CureChronicHeartArteryBlockage.label>
+  <CureChronicHeartArteryBlockage.description>治疗动脉阻塞。</CureChronicHeartArteryBlockage.description>
+  <CureChronicHeartArteryBlockage.jobString>正在治疗动脉阻塞。</CureChronicHeartArteryBlockage.jobString>
+  <CureChronicHeartArteryBlockage.successfullyRemovedHediffMessage>{0}已成功治愈{1}的动脉阻塞。</CureChronicHeartArteryBlockage.successfullyRemovedHediffMessage>
+
+
+</LanguageData>
