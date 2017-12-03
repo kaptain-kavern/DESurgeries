@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 傷跡: やけど -->
+
+  <CureInjuryBurn.label>やけど傷跡治療 (薬2)</CureInjuryBurn.label>
+  <CureInjuryBurn.description>やけどの傷跡を治療します。</CureInjuryBurn.description>
+  <CureInjuryBurn.jobString>傷跡治療中</CureInjuryBurn.jobString>
+  <CureInjuryBurn.successfullyRemovedHediffMessage>{0}が正常に{1}のやけどの傷跡を治療しました。</CureInjuryBurn.successfullyRemovedHediffMessage>
+
+
+  <!-- 傷跡: ひしゃげた -->
+
+  <CureInjuryCrush.label>ひしゃげた傷跡治療 (薬2)</CureInjuryCrush.label>
+  <CureInjuryCrush.description>ひしゃげた傷跡を治療します。</CureInjuryCrush.description>
+  <CureInjuryCrush.jobString>傷跡治療中</CureInjuryCrush.jobString>
+  <CureInjuryCrush.successfullyRemovedHediffMessage>{0}が正常に{1}のひしゃげた傷跡を治療しました。</CureInjuryCrush.successfullyRemovedHediffMessage>
+
+
+  <!-- 傷跡: ひびが入った -->
+
+  <CureInjuryCrack.label>ひび傷跡治療 (薬2)</CureInjuryCrack.label>
+  <CureInjuryCrack.description>ひびによる傷跡を治療します。</CureInjuryCrack.description>
+  <CureInjuryCrack.jobString>傷跡治療中</CureInjuryCrack.jobString>
+  <CureInjuryCrack.successfullyRemovedHediffMessage>{0}が正常に{1}のひびの傷跡を治療しました。</CureInjuryCrack.successfullyRemovedHediffMessage>
+
+
+  <!-- 傷跡: 切創 -->
+
+  <CureInjuryCut.label>切創傷跡治療 (薬2)</CureInjuryCut.label>
+  <CureInjuryCut.description>切創の傷跡を治療します。</CureInjuryCut.description>
+  <CureInjuryCut.jobString>傷跡治療中</CureInjuryCut.jobString>
+  <CureInjuryCut.successfullyRemovedHediffMessage>{0}が正常に{1}の切創の傷跡を治療しました。</CureInjuryCut.successfullyRemovedHediffMessage>
+
+
+  <!-- 傷跡: 外科的切除 -->
+
+  <CureInjurySurgicalCut.label>医療事故(切創痕)治療 (薬2)</CureInjurySurgicalCut.label>
+  <CureInjurySurgicalCut.description>医療事故による切創痕を治療します。</CureInjurySurgicalCut.description>
+  <CureInjurySurgicalCut.jobString>傷跡治療中</CureInjurySurgicalCut.jobString>
+  <CureInjurySurgicalCut.successfullyRemovedHediffMessage>{0}が正常に{1}の外科的切除の傷跡を治療しました。</CureInjurySurgicalCut.successfullyRemovedHediffMessage>
+
+
+  <!-- 傷跡: ひっかき傷 -->
+
+  <CureInjuryScratch.label>ひっかき傷跡治療 (薬2)</CureInjuryScratch.label>
+  <CureInjuryScratch.description>ひっかき傷の傷跡を治療します。</CureInjuryScratch.description>
+  <CureInjuryScratch.jobString>傷跡治療中</CureInjuryScratch.jobString>
+  <CureInjuryScratch.successfullyRemovedHediffMessage>{0}が正常に{1}のひっかき傷跡を治療しました。</CureInjuryScratch.successfullyRemovedHediffMessage>
+
+
+  <!-- 傷跡: 噛み傷 -->
+
+  <CureInjuryBite.label>噛み傷跡治療 (薬2)</CureInjuryBite.label>
+  <CureInjuryBite.description>噛み傷による傷跡を治療します。</CureInjuryBite.description>
+  <CureInjuryBite.jobString>傷跡治療中</CureInjuryBite.jobString>
+  <CureInjuryBite.successfullyRemovedHediffMessage>{0}が正常に{1}の噛み傷跡を治療しました。</CureInjuryBite.successfullyRemovedHediffMessage>
+
+
+  <!-- 傷跡: 刺し傷 -->
+
+  <CureInjuryStab.label>刺し傷跡治療 (薬2)</CureInjuryStab.label>
+  <CureInjuryStab.description>刺し傷の傷跡を治療します。</CureInjuryStab.description>
+  <CureInjuryStab.jobString>傷跡治療中</CureInjuryStab.jobString>
+  <CureInjuryStab.successfullyRemovedHediffMessage>{0}が正常に{1}の刺し傷跡を治療しました。</CureInjuryStab.successfullyRemovedHediffMessage>
+
+
+  <!-- 傷跡: 銃創 -->
+
+  <CureInjuryGunshot.label>銃創傷跡治療 (薬2)</CureInjuryGunshot.label>
+  <CureInjuryGunshot.description>銃創の傷跡を治療します。</CureInjuryGunshot.description>
+  <CureInjuryGunshot.jobString>傷跡治療中</CureInjuryGunshot.jobString>
+  <CureInjuryGunshot.successfullyRemovedHediffMessage>{0}が正常に{1}の銃創による傷跡を治療しました。</CureInjuryGunshot.successfullyRemovedHediffMessage>
+
+
+  <!-- 傷跡: 裂傷 -->
+
+  <CureInjuryShredded.label>裂傷跡治療 (薬2)</CureInjuryShredded.label>
+  <CureInjuryShredded.description>裂傷の傷跡を治療します。</CureInjuryShredded.description>
+  <CureInjuryShredded.jobString>傷跡治療中</CureInjuryShredded.jobString>
+  <CureInjuryShredded.successfullyRemovedHediffMessage>{0}が正常に{1}の裂傷跡を治療しました。</CureInjuryShredded.successfullyRemovedHediffMessage>
+
+
+  <!-- 傷跡: 打撲傷 -->
+
+  <CureInjuryBruise.label>打撲傷跡治療 (薬2)</CureInjuryBruise.label>
+  <CureInjuryBruise.description>打撲傷の傷跡を治療します。</CureInjuryBruise.description>
+  <CureInjuryBruise.jobString>傷跡治療中</CureInjuryBruise.jobString>
+  <CureInjuryBruise.successfullyRemovedHediffMessage>{0}が正常に{1}の打撲傷跡を治療しました。</CureInjuryBruise.successfullyRemovedHediffMessage>
+
+
+  <!-- 傷跡: 凍傷 -->
+
+  <CureInjuryFrostbite.label>凍傷跡治療 (薬2)</CureInjuryFrostbite.label>
+  <CureInjuryFrostbite.description>凍傷の傷跡を治療します。</CureInjuryFrostbite.description>
+  <CureInjuryFrostbite.jobString>傷跡治療中</CureInjuryFrostbite.jobString>
+  <CureInjuryFrostbite.successfullyRemovedHediffMessage>{0}が正常に{1}の凍傷跡を治療しました。</CureInjuryFrostbite.successfullyRemovedHediffMessage>
+
+
+  <!-- 骨と指: 下あご -->
+
+  <RepairBonesMandible.label>下あご整形 (プラスチ10/薬2 - 薬草不可)</RepairBonesMandible.label>
+  <RepairBonesMandible.description>下顎を整形します。</RepairBonesMandible.description>
+  <RepairBonesMandible.jobString>整形中</RepairBonesMandible.jobString>
+
+
+  <!-- 骨と指: 鎖骨 -->
+
+  <RepairBonesClavicle.label>鎖骨修復 (プラスチ10/薬2 - 薬草不可)</RepairBonesClavicle.label>
+  <RepairBonesClavicle.description>鎖骨を整形します。</RepairBonesClavicle.description>
+  <RepairBonesClavicle.jobString>整形中</RepairBonesClavicle.jobString>
+
+
+  <!-- 骨と指: 指先 -->
+
+  <RepairFinger.label>指先整形 (薬2 - 薬草不可)</RepairFinger.label>
+  <RepairFinger.description>指先を整形します。</RepairFinger.description>
+  <RepairFinger.jobString>整形中</RepairFinger.jobString>
+
+
+  <!-- 骨と指: つま先 -->
+
+  <RepairToe.label>つま先整形 (薬2 - 薬草不可)</RepairToe.label>
+  <RepairToe.description>つま先を整形します。</RepairToe.description>
+  <RepairToe.jobString>整形中</RepairToe.jobString>
+
+
+  <!-- 持病: 聴力損失 -->
+
+  <CureChronicHearingLoss.label>聴力損失治療 (薬2 - 薬草不可)</CureChronicHearingLoss.label>
+  <CureChronicHearingLoss.description>失った聴力を治療します。</CureChronicHearingLoss.description>
+  <CureChronicHearingLoss.jobString>聴力損失治療中</CureChronicHearingLoss.jobString>
+  <CureChronicHearingLoss.successfullyRemovedHediffMessage>{0}が正常に{1}の聴力損失を治療しました。</CureChronicHearingLoss.successfullyRemovedHediffMessage>
+
+
+  <!-- 美容整形: 耳 -->
+
+  <RepairCosmeticEar.label>耳の美容整形 (薬2 - 薬草不可)</RepairCosmeticEar.label>
+  <RepairCosmeticEar.description>耳を整形します。 (美容整形)</RepairCosmeticEar.description>
+  <RepairCosmeticEar.jobString>整形中</RepairCosmeticEar.jobString>
+
+
+  <!-- 美容整形: 鼻 -->
+
+  <RepairCosmeticNose.label>鼻の美容整形 (薬2 - 薬草不可)</RepairCosmeticNose.label>
+  <RepairCosmeticNose.description>鼻を整形します。 (美容整形)</RepairCosmeticNose.description>
+  <RepairCosmeticNose.jobString>整形中</RepairCosmeticNose.jobString>
+
+
+  <!-- 持病: 白内障 -->
+
+  <CureChronicCataract.label>白内障治療 (薬3 - 薬草不可)</CureChronicCataract.label>
+  <CureChronicCataract.description>白内障を治療します。</CureChronicCataract.description>
+  <CureChronicCataract.jobString>白内障治療中</CureChronicCataract.jobString>
+  <CureChronicCataract.successfullyRemovedHediffMessage>{0}が正常に{1}の白内障を治療しました。</CureChronicCataract.successfullyRemovedHediffMessage>
+
+
+  <!-- 骨: 胸郭 -->
+
+  <RepairBonesRibCage.label>肋骨整形 (プラスチ24/薬3 - 薬草不可)</RepairBonesRibCage.label>
+  <RepairBonesRibCage.description>胸郭の肋骨を整形します。</RepairBonesRibCage.description>
+  <RepairBonesRibCage.jobString>整形中</RepairBonesRibCage.jobString>
+
+
+  <!-- 骨と手足: 胸骨 -->
+
+  <RepairBonesSternum.label>胸骨整形 (プラスチ24/薬3 - 薬草不可)</RepairBonesSternum.label>
+  <RepairBonesSternum.description>胸骨を整形します。</RepairBonesSternum.description>
+  <RepairBonesSternum.jobString>整形中</RepairBonesSternum.jobString>
+
+
+  <!-- 骨と手足: とう(橈)骨 -->
+
+  <RepairBonesRadius.label>とう骨整形 (プラスチ10/薬2 - 薬草不可)</RepairBonesRadius.label>
+  <RepairBonesRadius.description>とう骨整形</RepairBonesRadius.description>
+  <RepairBonesRadius.jobString>整形中</RepairBonesRadius.jobString>
+
+
+  <!-- 骨と手足: 上腕骨 -->
+
+  <RepairBonesHumerus.label>上腕骨整形 (プラスチ10/薬2 - 薬草不可)</RepairBonesHumerus.label>
+  <RepairBonesHumerus.description>上腕骨整形</RepairBonesHumerus.description>
+  <RepairBonesHumerus.jobString>整形中</RepairBonesHumerus.jobString>
+
+
+  <!-- 骨と手足: 大腿骨 -->
+
+  <RepairBonesFemur.label>大腿骨整形 (プラスチ10/薬2 - 薬草不可)</RepairBonesFemur.label>
+  <RepairBonesFemur.description>大腿骨整形</RepairBonesFemur.description>
+  <RepairBonesFemur.jobString>整形中</RepairBonesFemur.jobString>
+
+
+  <!-- 骨と手足: 脛骨 -->
+
+  <RepairBonesTibia.label>脛骨整形 (プラスチ10/薬2 - 薬草不可)</RepairBonesTibia.label>
+  <RepairBonesTibia.description>脛骨整形</RepairBonesTibia.description>
+  <RepairBonesTibia.jobString>整形中</RepairBonesTibia.jobString>
+
+
+  <!-- 持病: ぜんそく -->
+
+  <CureChronicAsthma.label>ぜんそく治療 (薬3 - 薬草不可)</CureChronicAsthma.label>
+  <CureChronicAsthma.description>ぜんそくを治療します。</CureChronicAsthma.description>
+  <CureChronicAsthma.jobString>持病治療中</CureChronicAsthma.jobString>
+  <CureChronicAsthma.successfullyRemovedHediffMessage>{0}が正常に{1}のぜんそくを治療しました。</CureChronicAsthma.successfullyRemovedHediffMessage>
+
+
+  <!-- 駆除: せん毛虫 -->
+
+  <CureMuscleParasites.label>せん毛虫駆除 (薬5 - 薬草不可)</CureMuscleParasites.label>
+  <CureMuscleParasites.description>一回の治療でせん毛虫(筋肉寄生虫)を駆除します。危険ですが回復は早いです。</CureMuscleParasites.description>
+  <CureMuscleParasites.jobString>寄生虫駆除中</CureMuscleParasites.jobString>
+  <CureMuscleParasites.successfullyRemovedHediffMessage>{0}が正常に{1}のせん毛虫を駆除しました。</CureMuscleParasites.successfullyRemovedHediffMessage>
+
+
+  <!-- 駆除: 回虫 -->
+
+  <CureGutWorms.label>回虫駆除 (薬5 - 薬草不可)</CureGutWorms.label>
+  <CureGutWorms.description>一回の治療で回虫を駆除します。危険ですが回復は早いです。</CureGutWorms.description>
+  <CureGutWorms.jobString>寄生虫駆除中</CureGutWorms.jobString>
+  <CureGutWorms.successfullyRemovedHediffMessage>{0}が正常に{1}の回虫を駆除しました。</CureGutWorms.successfullyRemovedHediffMessage>
+
+
+  <!-- 持病: 心筋梗塞 -->
+
+  <CureChronicHeartArteryBlockage.label>心筋梗塞治療 (ナノ3. 薬)</CureChronicHeartArteryBlockage.label>
+  <CureChronicHeartArteryBlockage.description>心筋梗塞を治療します。</CureChronicHeartArteryBlockage.description>
+  <CureChronicHeartArteryBlockage.jobString>持病治療中</CureChronicHeartArteryBlockage.jobString>
+  <CureChronicHeartArteryBlockage.successfullyRemovedHediffMessage>{0}が正常に{1}の心筋梗塞を治療しました。</CureChronicHeartArteryBlockage.successfullyRemovedHediffMessage>
+
+
+  <!-- 骨: 脊椎 -->
+
+  <RepairBoneSpine.label>脊椎整形 (プラスチ3/薬3 - 薬草不可)</RepairBoneSpine.label>
+  <RepairBoneSpine.description>脊椎を整形します。</RepairBoneSpine.description>
+  <RepairBoneSpine.jobString>整形中</RepairBoneSpine.jobString>
+
+
+  <!-- 骨: 骨盤 -->
+
+  <RepairBonesPelvis.label>骨盤整形 (プラスチ24/薬3 - 薬草不可)</RepairBonesPelvis.label>
+  <RepairBonesPelvis.description>骨盤を整形します。</RepairBonesPelvis.description>
+  <RepairBonesPelvis.jobString>整形中</RepairBonesPelvis.jobString>
+
+
+  <!-- 持病: 認知症 -->
+
+  <CureChronicDementia.label>認知症治療 (ナノ3. 薬)</CureChronicDementia.label>
+  <CureChronicDementia.description>認知症を治療します。</CureChronicDementia.description>
+  <CureChronicDementia.jobString>持病治療中</CureChronicDementia.jobString>
+  <CureChronicDementia.successfullyRemovedHediffMessage>{0}が正常に{1}の認知症を治療しました。</CureChronicDementia.successfullyRemovedHediffMessage>
+
+
+  <!-- 持病: アルツハイマー病 -->
+
+  <CureChronicAlzheimers.label>アルツハイマー治療 (ナノ3. 薬)</CureChronicAlzheimers.label>
+  <CureChronicAlzheimers.description>アルツハイマー病を治療します。</CureChronicAlzheimers.description>
+  <CureChronicAlzheimers.jobString>持病治療中</CureChronicAlzheimers.jobString>
+  <CureChronicAlzheimers.successfullyRemovedHediffMessage>{0}が正常に{1}のアルツハイマー病を治療しました。</CureChronicAlzheimers.successfullyRemovedHediffMessage>
+
+
+  <!-- 持病: 腰痛 -->
+
+  <CureChronicBadBack.label>腰痛治療 (プラスチ30/薬3 - 薬草不可)</CureChronicBadBack.label>
+  <CureChronicBadBack.description>腰痛を治療します。</CureChronicBadBack.description>
+  <CureChronicBadBack.jobString>持病治療中</CureChronicBadBack.jobString>
+  <CureChronicBadBack.successfullyRemovedHediffMessage>{0}が正常に{1}の腰痛を治療しました。</CureChronicBadBack.successfullyRemovedHediffMessage>
+
+
+  <!-- 持病: 虚弱 -->
+
+  <CureChronicFrail.label>虚弱治療 (プラスチ120/薬3 - 薬草不可)</CureChronicFrail.label>
+  <CureChronicFrail.description>虚弱を治療します。</CureChronicFrail.description>
+  <CureChronicFrail.jobString>持病治療中</CureChronicFrail.jobString>
+  <CureChronicFrail.successfullyRemovedHediffMessage>{0}が正常に{1}の虚弱を治療しました。</CureChronicFrail.successfullyRemovedHediffMessage>
+
+
+  <!-- 肝硬変 治療 -->
+
+  <CureCirrhosis.label>肝硬変治療 (薬5 - 薬草不可)</CureCirrhosis.label>
+  <CureCirrhosis.description>肝硬変を治療します。</CureCirrhosis.description>
+  <CureCirrhosis.jobString>肝硬変治療中</CureCirrhosis.jobString>
+  <CureCirrhosis.successfullyRemovedHediffMessage>{0}が正常に{1}の肝硬変を治療しました。</CureCirrhosis.successfullyRemovedHediffMessage>
+
+
+</LanguageData>
