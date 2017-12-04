@@ -1,4 +1,4 @@
-[![Version](https://img.shields.io/badge/Rimworld-B18-red.svg)](http://rimworldgame.com/)                [![NinjaSync'ed](https://img.shields.io/badge/Ninja-Sync'ed-green.svg)](http://www.modsync.ninja/#one)
+[![Version](https://img.shields.io/badge/Rimworld-B18-red.svg)](https://ludeon.com/forums/index.php?topic=22120)                [![NinjaSync'ed](https://img.shields.io/badge/Ninja-Sync'ed-green.svg)](http://www.modsync.ninja/#one)
 # DESurgeries
 DESurgeries (originally by [DarknessEyes](https://ludeon.com/forums/index.php?topic=18976.0))  taken from [Aristocat's Medical Complication Mod Pack](https://ludeon.com/forums/index.php?topic=20708.0)
 
