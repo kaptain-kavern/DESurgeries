@@ -58,4 +58,4 @@ Thanks to our Translators !
 - RU : by Man232 and Desert Rain
 - ZH : by tlerbao
 - FR : By Jozay
-- JP : By Proxyer
+- JP : By [Proxyer](http://steamcommunity.com/profiles/76561198257945076/myworkshopfiles/?appid=294100)
