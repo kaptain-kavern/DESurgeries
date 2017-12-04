@@ -2,15 +2,16 @@
 <ModMetaData>
 <name>DE Surgeries</name>
 <author>DarknessEyes</author>
+<url>https://github.com/kaptain-kavern/DESurgeries</url>
 <targetVersion>0.18.0</targetVersion>
 <description>
     Adds new surgeries to Rimworld.
 
-        2 cosmetic surgeries: Ear and Nose.
-        8 chronic surgeries: Bad back, Frail, Cataract, Hearing loss, Dementia, Alzheimers, Asthma and Heart artery blockage.
-        12 injury surgeries: Burn, Crush, Crack, Cut, Surgical cut, Scratch, Bite, Stab, Gunshot, Shredded, Bruise, Frostbite.
-        2 Parasite surgeries : Muscle Parasite, Gut Worms
-        8 bone/limb surgeries: Finger, Toe, Mandible, Pelvis, Clavicles, Sternum, Rib cage and Spine.
+        - 2 cosmetic surgeries: Ear and Nose.
+        - 9 chronic surgeries: Bad back, Frail, Cataract, Hearing loss, Dementia, Alzheimers, Asthma, Cirrhosis and Heart artery blockage.
+        - 12 injury surgeries: Burn, Crush, Crack, Cut, Surgical cut, Scratch, Bite, Stab, Gunshot, Shredded, Bruise, Frostbite.
+        - 2 Parasite surgeries : Muscle Parasite, Gut Worms
+        - 12 bone/limb surgeries: Finger, Toe, Mandible, Pelvis, Clavicles, Sternum, Ribs, Radius, Humerus, Femur, Tibia and Spine.
 
 Shamelessly updated through A14 to A18 without permission by KapTaiN_KaVerN
 
