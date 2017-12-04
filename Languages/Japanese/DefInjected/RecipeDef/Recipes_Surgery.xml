@@ -157,9 +157,53 @@
 
   <!-- 骨: 胸郭 -->
 
-  <RepairBonesRibCage.label>肋骨整形 (プラスチ24/薬3 - 薬草不可)</RepairBonesRibCage.label>
-  <RepairBonesRibCage.description>胸郭の肋骨を整形します。</RepairBonesRibCage.description>
-  <RepairBonesRibCage.jobString>整形中</RepairBonesRibCage.jobString>
+  <RepairBonesRib1.label>肋骨1整形 (プラスチ8/薬1 - 薬草不可)</RepairBonesRib1.label>
+  <RepairBonesRib1.description>胸郭の肋骨を整形します。</RepairBonesRib1.description>
+  <RepairBonesRib1.jobString>肋骨を整形中</RepairBonesRib1.jobString>
+
+  <RepairBonesRib2.label>肋骨2整形 (プラスチ8/薬1 - 薬草不可)</RepairBonesRib2.label>
+  <RepairBonesRib2.description>胸郭の肋骨を整形します。</RepairBonesRib2.description>
+  <RepairBonesRib2.jobString>肋骨を整形中</RepairBonesRib2.jobString>
+
+  <RepairBonesRib3.label>肋骨3整形 (プラスチ8/薬1 - 薬草不可)</RepairBonesRib3.label>
+  <RepairBonesRib3.description>胸郭の肋骨を整形します。</RepairBonesRib3.description>
+  <RepairBonesRib3.jobString>肋骨を整形中</RepairBonesRib3.jobString>
+
+  <RepairBonesRib4.label>肋骨4整形 (プラスチ8/薬1 - 薬草不可)</RepairBonesRib4.label>
+  <RepairBonesRib4.description>胸郭の肋骨を整形します。</RepairBonesRib4.description>
+  <RepairBonesRib4.jobString>肋骨を整形中</RepairBonesRib4.jobString>
+
+  <RepairBonesRib5.label>肋骨5整形 (プラスチ8/薬1 - 薬草不可)</RepairBonesRib5.label>
+  <RepairBonesRib5.description>胸郭の肋骨を整形します。</RepairBonesRib5.description>
+  <RepairBonesRib5.jobString>肋骨を整形中</RepairBonesRib5.jobString>
+
+  <RepairBonesRib6.label>肋骨6整形 (プラスチ8/薬1 - 薬草不可)</RepairBonesRib6.label>
+  <RepairBonesRib6.description>胸郭の肋骨を整形します。</RepairBonesRib6.description>
+  <RepairBonesRib6.jobString>肋骨を整形中</RepairBonesRib6.jobString>
+
+  <RepairBonesRib7.label>肋骨7整形 (プラスチ8/薬1 - 薬草不可)</RepairBonesRib7.label>
+  <RepairBonesRib7.description>胸郭の肋骨を整形します。</RepairBonesRib7.description>
+  <RepairBonesRib7.jobString>肋骨を整形中</RepairBonesRib7.jobString>
+
+  <RepairBonesRib8.label>肋骨8整形 (プラスチ8/薬1 - 薬草不可)</RepairBonesRib8.label>
+  <RepairBonesRib8.description>胸郭の肋骨を整形します。</RepairBonesRib8.description>
+  <RepairBonesRib8.jobString>肋骨を整形中</RepairBonesRib8.jobString>
+
+  <RepairBonesRib9.label>肋骨9整形 (プラスチ8/薬1 - 薬草不可)</RepairBonesRib9.label>
+  <RepairBonesRib9.description>胸郭の肋骨を整形します。</RepairBonesRib9.description>
+  <RepairBonesRib9.jobString>肋骨を整形中</RepairBonesRib9.jobString>
+
+  <RepairBonesRib10.label>肋骨10整形 (プラスチ8/薬1 - 薬草不可)</RepairBonesRib10.label>
+  <RepairBonesRib10.description>胸郭の肋骨を整形します。</RepairBonesRib10.description>
+  <RepairBonesRib10.jobString>肋骨を整形中</RepairBonesRib10.jobString>
+
+  <RepairBonesRib11.label>肋骨11整形 (プラスチ8/薬1 - 薬草不可)</RepairBonesRib11.label>
+  <RepairBonesRib11.description>胸郭の肋骨を整形します。</RepairBonesRib11.description>
+  <RepairBonesRib11.jobString>肋骨を整形中</RepairBonesRib11.jobString>
+
+  <RepairBonesRib12.label>肋骨12整形 (プラスチ8/薬1 - 薬草不可)</RepairBonesRib12.label>
+  <RepairBonesRib12.description>胸郭の肋骨を整形します。</RepairBonesRib12.description>
+  <RepairBonesRib12.jobString>肋骨を整形中</RepairBonesRib12.jobString>
 
 
   <!-- 骨と手足: 胸骨 -->
