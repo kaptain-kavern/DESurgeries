@@ -59,3 +59,8 @@ Thanks to our Translators !
 - ZH : by tlerbao
 - FR : By Jozay
 - JP : By [Proxyer](http://steamcommunity.com/profiles/76561198257945076/myworkshopfiles/?appid=294100)
+
+## Support on Beerpay
+Hey dude! Help me out for a couple of :beers:!
+
+[![Beerpay](https://beerpay.io/kaptain-kavern/DESurgeries/badge.svg?style=beer-square)](https://beerpay.io/kaptain-kavern/DESurgeries)  [![Beerpay](https://beerpay.io/kaptain-kavern/DESurgeries/make-wish.svg?style=flat-square)](https://beerpay.io/kaptain-kavern/DESurgeries?focus=wish)
