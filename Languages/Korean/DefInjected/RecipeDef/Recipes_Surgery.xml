@@ -27,49 +27,49 @@
   <CureInjuryCut.jobString>베임 치료 중</CureInjuryCut.jobString>
 
   <!-- Injury: SurgicalCut -->
-  <CureInjurySurgicalCut.label>외과적 절단 치료 (약폼 2)</CureInjurySurgicalCut.label>
+  <CureInjurySurgicalCut.label>외과적 절단 치료 (약품 2)</CureInjurySurgicalCut.label>
   <CureInjurySurgicalCut.description>외과적 절단을 치료합니다.</CureInjurySurgicalCut.description>
   <CureInjurySurgicalCut.successfullyRemovedHediffMessage>{0}(이)가 {1}의 외과적 절단을 성공적으로 치료하였습니다.</CureInjurySurgicalCut.successfullyRemovedHediffMessage>
   <CureInjurySurgicalCut.jobString>외과적 절단 치료 중</CureInjurySurgicalCut.jobString>
 
   <!-- Injury: Scratch -->
-  <CureInjuryScratch.label>긁힘 치료 (약폼 2)</CureInjuryScratch.label>
+  <CureInjuryScratch.label>긁힘 치료 (약품 2)</CureInjuryScratch.label>
   <CureInjuryScratch.description>긁힘을 치료합니다.</CureInjuryScratch.description>
   <CureInjuryScratch.successfullyRemovedHediffMessage>{0}(이)가 {1}의 긁힘을 성공적으로 치료하였습니다.</CureInjuryScratch.successfullyRemovedHediffMessage>
   <CureInjuryScratch.jobString>긁힘 치료 중</CureInjuryScratch.jobString>
 
   <!-- Injury: Bite -->
-  <CureInjuryBite.label>물림 치료 (약폼 2)</CureInjuryBite.label>
+  <CureInjuryBite.label>물림 치료 (약품 2)</CureInjuryBite.label>
   <CureInjuryBite.description>물림을 치료합니다.</CureInjuryBite.description>
   <CureInjuryBite.successfullyRemovedHediffMessage>{0}(이)가 {1}의 물림을 성공적으로 치료하였습니다.</CureInjuryBite.successfullyRemovedHediffMessage>
   <CureInjuryBite.jobString>물림 치료 중</CureInjuryBite.jobString>
 
   <!-- Injury: Stab -->
-  <CureInjuryStab.label>찔림 치료 (약폼 2)</CureInjuryStab.label>
+  <CureInjuryStab.label>찔림 치료 (약품 2)</CureInjuryStab.label>
   <CureInjuryStab.description>찔림을 치료합니다.</CureInjuryStab.description>
   <CureInjuryStab.successfullyRemovedHediffMessage>{0}(이)가 {1}의 찔림을 성공적으로 치료하였습니다.</CureInjuryStab.successfullyRemovedHediffMessage>
   <CureInjuryStab.jobString>찔림 치료 중</CureInjuryStab.jobString>
 
   <!-- Injury: Gunshot -->
-  <CureInjuryGunshot.label>총상 치료 (약폼 2)</CureInjuryGunshot.label>
+  <CureInjuryGunshot.label>총상 치료 (약품 2)</CureInjuryGunshot.label>
   <CureInjuryGunshot.description>총상을 치료합니다.</CureInjuryGunshot.description>
   <CureInjuryGunshot.successfullyRemovedHediffMessage>{0}(이)가 {1}의 총상을 성공적으로 치료하였습니다.</CureInjuryGunshot.successfullyRemovedHediffMessage>
   <CureInjuryGunshot.jobString>총상 치료 중</CureInjuryGunshot.jobString>
 
   <!-- Injury: Shredded -->
-  <CureInjuryShredded.label>조각남 치료 (약폼 2)</CureInjuryShredded.label>
+  <CureInjuryShredded.label>조각남 치료 (약품 2)</CureInjuryShredded.label>
   <CureInjuryShredded.description>조각남을 치료합니다.</CureInjuryShredded.description>
   <CureInjuryShredded.successfullyRemovedHediffMessage>{0}(이)가 {1}의 조각남을 성공적으로 치료하였습니다.</CureInjuryShredded.successfullyRemovedHediffMessage>
   <CureInjuryShredded.jobString>조각남 치료 중</CureInjuryShredded.jobString>
 
   <!-- Injury: Bruise -->
-  <CureInjuryBruise.label>타박상 치료 (약폼 2)</CureInjuryBruise.label>
+  <CureInjuryBruise.label>타박상 치료 (약품 2)</CureInjuryBruise.label>
   <CureInjuryBruise.description>타박상을 치료합니다.</CureInjuryBruise.description>
   <CureInjuryBruise.successfullyRemovedHediffMessage>{0}(이)가 {1}의 타박상을 성공적으로 치료하였습니다.</CureInjuryBruise.successfullyRemovedHediffMessage>
   <CureInjuryBruise.jobString>타박상 치료 중</CureInjuryBruise.jobString>
 
   <!-- Injury: Frostbite -->
-  <CureInjuryFrostbite.label>동상 치료 (약폼 2)</CureInjuryFrostbite.label>
+  <CureInjuryFrostbite.label>동상 치료 (약품 2)</CureInjuryFrostbite.label>
   <CureInjuryFrostbite.description>동상을 치료합니다.</CureInjuryFrostbite.description>
   <CureInjuryFrostbite.successfullyRemovedHediffMessage>{0}(이)가 {1}의 동상을 성공적으로 치료하였습니다.</CureInjuryFrostbite.successfullyRemovedHediffMessage>
   <CureInjuryFrostbite.jobString>동상 치료 중</CureInjuryFrostbite.jobString>
